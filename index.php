@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Obrien - Organic Food HTML5 Template</title>
+    <title>FoodKo</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,7 +54,7 @@
                                 <p>Get 35% off for new product </p>
                             </div>
                             <div class="header-top-button">
-                                <a href="shop-fullwidth.html">Shop Now</a>
+                                <a href="shop-list-left.php">Shop Now</a>
                             </div>
                             <span class="top-close-button">X</span>
                         </div>
@@ -70,8 +70,8 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo d-flex align-items-center">
-                                        <a href="index.html">
-                                            <img class="img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                                        <a href="index.php">
+                                            <img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">
                                         </a>
                                     </div>
                                 </div>
@@ -79,16 +79,11 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a class="active" href="index.html">
+                                                <a class="active" href="index.php">
                                                     <span class="menu-text"> Home</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                   
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a class="active" href="index.html">Home Page - 1</a></li>
-                                                    <li><a href="index-2.html">Home Page - 2</a></li>
-                                                    <li><a href="index-3.html">Home Page - 3</a></li>
-                                                    <li><a href="index-4.html">Home Page - 4</a></li>
-                                                </ul>
+                                                
                                             </li>
                                             <li>
                                                 <a href="shop-list-left.php">
@@ -112,28 +107,19 @@
                                                     <div class="menu-colum">
                                                         <ul>
                                                             <li><span class="mega-menu-text">Others</span></li>                                                           
-                                                            <li><a href="cart.html">Cart Page</a></li>                                                            
-                                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                                            <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                            <li><a href="cart.php">Cart Page</a></li>                                                            
+                                                            <li><a href="checkout.php">Checkout Page</a></li>
+                                                            <li><a href="wishlist.php">Wishlist Page</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="blog-details-fullwidth.html">
+                                                <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                    
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                                    <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth</a></li>
-                                                </ul>
+                                               
                                             </li>
                                             <li>
                                                 <a href="#">
@@ -141,19 +127,19 @@
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="frequently-questions.html">FAQ</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
+                                                    <li><a href="frequently-questions.php">FAQ</a></li>
+                                                    <li><a href="my-account.php">My Account</a></li>
+                                                    <li><a href="login.php">Login</a></li>
+                                                    <li><a href="register.php">Register</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="about-us.html">
+                                                <a href="about-us.php">
                                                     <span class="menu-text"> About</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact-us.html">
+                                                <a href="contact-us.php">
                                                     <span class="menu-text">Contact</span>
                                                 </a>
                                             </li>
@@ -164,8 +150,8 @@
                                     <div class="header-right-area main-nav">
                                         <ul class="nav">
                                             <li class="login-register-wrap d-none d-xl-flex">
-                                                <span><a href="login.html">Login</a></span>
-                                                <span><a href="register.html">Register</a></span>
+                                                <span><a href="login.php">Login</a></span>
+                                                <span><a href="register.php">Register</a></span>
                                             </li>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
@@ -187,15 +173,19 @@
                                                 </a>
                                                 <div class="cart-item-wrapper dropdown-sidemenu dropdown-hover-2">
                                                     <div class="single-cart-item">
-                                                        <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/1.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">11. Product with video - navy</a></h5>
+                                                    <?php
+                                                        echo '<div class="cart-img">';
+                                                        echo '<a href="cart.php"><img src="assets/images/cart/4.png" alt=""></a>';
+                                                        echo '</div>';
+                                                        echo '<div class="cart-text">';
+                                                        echo '<h5 class="title"><a href="cart.php">Sushi</a></h5>';
+                                                    ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP145.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
@@ -203,14 +193,18 @@
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/2.jpg" alt=""></a>
+                                                            <a href="cart.php"><img src="assets/images/cart/5.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html" title="10. This is the large title for testing large title and there is an image for testing - white">10. This is the large title for testing...</a></h5>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.php" title="Adobo">Adobo</a></h5>';
+                                                        ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP50.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
@@ -218,26 +212,34 @@
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/3.jpg" alt=""></a>
+                                                            <a href="cart.php"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">1. New and sale badge product - s / red</a></h5>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.php">Hal-Halo</a></h5>';
+                                                        ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP75.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="cart-price-total d-flex justify-content-between">
-                                                        <h5>Total :</h5>
-                                                        <h5>$166.00</h5>
+                                                    <?php
+                                                        echo '<h5>Total :</h5>';
+                                                        echo '<h5>PHP270.00</h5>';
+                                                    ?>
                                                     </div>
                                                     <div class="cart-links d-flex justify-content-center">
-                                                        <a class="obrien-button white-btn" href="cart.html">View cart</a>
-                                                        <a class="obrien-button white-btn" href="checkout.html">Checkout</a>
+                                                    <?php
+                                                        echo '<a class="obrien-button white-btn" href="cart.php">View cart</a>';
+                                                        echo '<a class="obrien-button white-btn" href="checkout.php">Checkout</a>';
+                                                    ?>
                                                     </div>
                                                 </div>
                                             </li>
@@ -263,8 +265,10 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo">
-                                        <a href="index.html">
-                                            <img class="img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                                        <a href="index.php">
+                                        <?php
+                                            echo '<img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">';
+                                        ?>
                                         </a>
                                     </div>
                                 </div>
@@ -272,15 +276,17 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a class="active" href="index.html">
-                                                    <span class="menu-text"> Home</span>
+                                                <a class="active" href="index.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a class="active" href="index.html">Home Page - 1</a></li>
-                                                    <li><a href="index-2.html">Home Page - 2</a></li>
-                                                    <li><a href="index-3.html">Home Page - 3</a></li>
-                                                    <li><a href="index-4.html">Home Page - 4</a></li>
+                                                    <li><a class="active" href="index.php">Home Page - 1</a></li>
+                                                    <li><a href="index-2.php">Home Page - 2</a></li>
+                                                    <li><a href="index-3.php">Home Page - 3</a></li>
+                                                    <li><a href="index-4.php">Home Page - 4</a></li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -322,7 +328,7 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="blog-details-fullwidth.html">
+                                                <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
@@ -342,21 +348,27 @@
                                                     <span class="menu-text"> Pages</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="frequently-questions.html">FAQ</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                </ul>
+                                                <?php
+                                                    echo '<ul class="dropdown-submenu dropdown-hover">';
+                                                    echo '<li><a href="frequently-questions.php">FAQ</a></li>';
+                                                    echo '<li><a href="my-account.php">My Account</a></li>';
+                                                    echo '<li><a href="login.php">Login</a></li>';
+                                                    echo '<li><a href="register.php">Register</a></li>';
+                                                    echo '</ul>';
+                                                ?>
                                             </li>
                                             <li>
-                                                <a href="about-us.html">
-                                                    <span class="menu-text"> About</span>
+                                                <a href="about-us.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> About</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact-us.html">
-                                                    <span class="menu-text">Contact</span>
+                                                <a href="contact-us.php">
+                                                <?php
+                                                    echo '<span class="menu-text">Contact</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                         </ul>
@@ -365,21 +377,25 @@
                                 <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
                                     <div class="header-right-area main-nav">
                                         <ul class="nav">
-                                            <li class="login-register-wrap d-none d-xl-flex">
-                                                <span><a href="login.html">Login</a></span>
-                                                <span><a href="register.html">Register</a></span>
-                                            </li>
+                                        <?php
+                                            echo '<li class="login-register-wrap d-none d-xl-flex">';
+                                            echo '<span><a href="login.php">Login</a></span>';
+                                            echo '<span><a href="register.php">Register</a></span>';
+                                            echo '</li>';
+                                        ?>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
                                                 <ul class="dropdown-sidemenu dropdown-hover-2 dropdown-language">
-                                                    <li><a href="#">USD - US Dollar</a></li>
-                                                    <li><a href="#">EUR - Euro</a></li>
-                                                    <li><a href="#">GBP - British Pound</a></li>
-                                                    <li><a href="#">INR - Indian Rupee</a></li>
-                                                    <li><a href="#">BDT - Bangladesh Taka</a></li>
-                                                    <li><a href="#">JPY - Japan Yen</a></li>
-                                                    <li><a href="#">CAD - Canada Dollar</a></li>
-                                                    <li><a href="#">AUD - Australian Dollar</a></li>
+                                                <?php
+                                                    echo '<li><a href="#">USD - US Dollar</a></li>';
+                                                    echo '<li><a href="#">EUR - Euro</a></li>';
+                                                    echo '<li><a href="#">GBP - British Pound</a></li>';
+                                                    echo '<li><a href="#">INR - Indian Rupee</a></li>';
+                                                    echo '<li><a href="#">BDT - Bangladesh Taka</a></li>';
+                                                    echo '<li><a href="#">JPY - Japan Yen</a></li>';
+                                                    echo '<li><a href="#">CAD - Canada Dollar</a></li>';
+                                                    echo '<li><a href="#">AUD - Australian Dollar</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li class="minicart-wrap">
@@ -390,56 +406,72 @@
                                                 <div class="cart-item-wrapper dropdown-sidemenu dropdown-hover-2">
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/1.jpg" alt=""></a>
+                                                        <?php
+                                                            echo '<a href="cart.php"><img src="assets/images/cart/4.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">11. Product with video - navy</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<div class="cart-text-btn">';
+                                                            echo '<div class="cart-qty">';
+                                                            echo '<span>1×</span>';
+                                                            echo '<span class="cart-price">PHP145.00</span>';
+                                                            echo '</div>';
+                                                        ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/2.jpg" alt=""></a>
+                                                        <?php
+                                                                    echo '<a href="cart.php"><img src="assets/images/cart/5.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html" title="10. This is the large title for testing large title and there is an image for testing - white">10. This is the large title for testing...</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                            <h5 class="title"><a href="cart.php" title="Adobo">Adobo</a></h5>
+                                                            <?php
+                                                                echo '<div class="cart-text-btn">';
+                                                                echo '<div class="cart-qty">';
+                                                                echo '<span>1×</span>';
+                                                                echo '<span class="cart-price">PHP50.00</span>';
+                                                                echo '</div>';
+                                                            ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/3.jpg" alt=""></a>
+                                                            <a href="cart.html"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">1. New and sale badge product - s / red</a></h5>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.php">Halo-Halo</a></h5>';
+                                                        ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP75.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="cart-price-total d-flex justify-content-between">
-                                                        <h5>Total :</h5>
-                                                        <h5>$166.00</h5>
+                                                    <?php
+                                                            echo '<h5>Total :</h5>';
+                                                            echo '<h5>PHP270.00</h5>';
+                                                    ?>
                                                     </div>
                                                     <div class="cart-links d-flex justify-content-center">
-                                                        <a class="obrien-button white-btn" href="cart.html">View cart</a>
-                                                        <a class="obrien-button white-btn" href="checkout.html">Checkout</a>
+                                                    <?php
+                                                        echo '<a class="obrien-button white-btn" href="cart.php">View cart</a>';
+                                                        echo '<a class="obrien-button white-btn" href="checkout.php">Checkout</a>';
+                                                    ?>
                                                     </div>
                                                 </div>
                                             </li>
@@ -490,11 +522,9 @@
                                         <ul class="megamenu dropdown">
                                             <li class="mega-title has-children"><a href="#">Shop Layouts</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="shop.html">Shop Left Sidebar</a></li>
-                                                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                        
                                                     <li><a href="shop-list-left.html">Shop List Left Sidebar</a></li>
-                                                    <li><a href="shop-list-right.html">Shop List Right Sidebar</a></li>
-                                                    <li><a href="shop-fullwidth.html">Shop Full Width</a></li>
+                                                    
                                                 </ul>
                                             </li>
                                             <li class="mega-title has-children"><a href="#">Product Details</a>
@@ -517,56 +547,49 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children "><a href="#">Blog</a>
-                                        <ul class="dropdown">
-                                            <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                            <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                            <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                            <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                            <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                            <li><a href="blog-details-sidebar.html">Blog Details Sidebar Page</a></li>
-                                            <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children "><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="frequently-questions.html">FAQ</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="login-register.html">login &amp; register</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
+                                    
+                                    <?php
+                                            echo '<li class="menu-item-has-children "><a href="#">Pages</a>';
+                                            echo '<ul class="dropdown">';
+                                            echo '<li><a href="frequently-questions.php">FAQ</a></li>';
+                                            echo '<li><a href="my-account.php">My Account</a></li>';
+                                            echo '<li><a href="login-register.php">login &amp; register</a></li>';
+                                            echo '</ul>';
+                                            echo '</li>';
+                                            echo '<li><a href="about-us.php">About Us</a></li>';
+                                            echo '<li><a href="contact-us.php">Contact</a></li>';
+                                            echo '</ul>';
+                                    ?>
                             </nav>
                             <!-- mobile menu navigation end -->
                         </div>
                         <!-- mobile menu end -->
                         <div class="header-top-settings offcanvas-curreny-lang-support">
                             <!-- mobile menu navigation start -->
-                            <nav>
-                                <ul class="mobile-menu">
-                                    <li class="menu-item-has-children"><a href="#">My Account</a>
-                                        <ul class="dropdown">
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="Register.html">Register</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">Currency:USD</a>
-                                        <ul class="dropdown">
-                                            <li><a href="#">USD - US Dollar</a></li>
-                                            <li><a href="#">EUR - Euro</a></li>
-                                            <li><a href="#">GBP - British Pound</a></li>
-                                            <li><a href="#">INR - Indian Rupee</a></li>
-                                            <li><a href="#">BDT - Bangladesh Taka</a></li>
-                                            <li><a href="#">JPY - Japan Yen</a></li>
-                                            <li><a href="#">CAD - Canada Dollar</a></li>
-                                            <li><a href="#">AUD - Australian Dollar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <?php
+                                echo '<nav>';
+                                echo '<ul class="mobile-menu">';
+                                echo '<li class="menu-item-has-children"><a href="#">My Account</a>';
+                                echo '<ul class="dropdown">';
+                                echo '<li><a href="login.html">Login</a></li>';
+                                echo '<li><a href="Register.html">Register</a></li>';
+                                echo '</ul>';
+                                echo '</li>';
+                                echo '<li class="menu-item-has-children"><a href="#">Currency:USD</a>';
+                                echo '<ul class="dropdown">';
+                                echo '<li><a href="#">USD - US Dollar</a></li>';
+                                echo '<li><a href="#">EUR - Euro</a></li>';
+                                echo '<li><a href="#">GBP - British Pound</a></li>';
+                                echo '<li><a href="#">INR - Indian Rupee</a></li>';
+                                echo '<li><a href="#">BDT - Bangladesh Taka</a></li>';
+                                echo '<li><a href="#">JPY - Japan Yen</a></li>';
+                                echo '<li><a href="#">CAD - Canada Dollar</a></li>';
+                                echo '<li><a href="#">AUD - Australian Dollar</a></li>';
+                                echo '</ul>';
+                                echo '</li>';
+                                echo '</ul>';
+                                echo '</nav>';
+                            ?>
                             <!-- mobile menu navigation end -->
                         </div>
                         <!-- offcanvas widget area start -->
@@ -583,13 +606,15 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="off-canvas-widget-social">
-                                <a title="Facebook-f" href="#"><i class="fa fa-facebook-f"></i></a>
-                                <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                                <a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
-                                <a title="Vimeo" href="#"><i class="fa fa-vimeo"></i></a>
-                            </div>
+                            <?php
+                                echo '<div class="off-canvas-widget-social">';
+                                echo '<a title="Facebook-f" href="#"><i class="fa fa-facebook-f"></i></a>';
+                                echo '<a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>';
+                                echo '<a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>';
+                                echo '<a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>';
+                                echo '<a title="Vimeo" href="#"><i class="fa fa-vimeo"></i></a>';
+                                echo '</div>';
+                            ?>
                         </div>
                         <!-- offcanvas widget area end -->
                     </div>
@@ -618,26 +643,28 @@
         "dots": true
         }}
         ]'>
-                <div class="slide-item slide-1 bg-position slide-bg-1 animation-style-01">
-                    <div class="slider-content">
-                        <h4 class="slider-small-title">Cold processed organic fruit</h4>
-                        <h2 class="slider-large-title">Fresh Avocado</h2>
-                        <div class="slider-btn">
-                            <a class="obrien-button black-btn" href="shop.html">Shop Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide-item slide-2 bg-position slide-bg-1 animation-style-01">
-                    <div class="slider-content">
-                        <h4 class="slider-small-title">Healthy life with</h4>
-                        <h2 class="slider-large-title">Natural Organic</h2>
-                        <div class="slider-btn">
-                            <a class="obrien-button black-btn" href="shop.html">Shop Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php
+            echo '<div class="slide-item slide-1 bg-position slide-bg-1 animation-style-01">';
+            echo '<div class="slider-content">';
+            echo '<h4 class="slider-small-title">Pure Beef</h4>';
+            echo '<h2 class="slider-large-title">Fresh Burger</h2>';
+            echo '<div class="slider-btn">';
+            echo '<a class="obrien-button black-btn" href="shop-list-left.php">Shop Now</a>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+            echo '<div class="slide-item slide-2 bg-position slide-bg-1 animation-style-01">';
+            echo '<div class="slider-content">';
+            echo '<h4 class="slider-small-title">Healthy life with</h4>';
+            echo '<h2 class="slider-large-title">FoodKo</h2>';
+            echo '<div class="slider-btn">';
+            echo '<a class="obrien-button black-btn" href="shop-list-left.php">Shop Now</a>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+        ?>
         <!-- Slider Area One End Here -->
         <!-- Feature Area Start Here -->
         <div class="feature-area">
@@ -645,15 +672,19 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-5 col-md-12 col-custom">
                         <div class="feature-content-wrapper">
-                            <h2 class="title">Important to eat fruit</h2>
-                            <p class="desc-content">Eating fruit provides health benefits — people who eat more fruits and vegetables as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases. Fruits provide nutrients vital for health and maintenance of your body.</p>
-                            <p class="desc-content"> Fruits are sources of many essential nutrients that are underconsumed, including potassium, dietary fiber, vitamin C, and folate (folic acid).</p>
-                            <p class="desc-content"> Most fruits are naturally low in fat, sodium, and calories. None have cholesterol.</p>
+                        <?php
+                            echo '<h2 class="title">Voucher</h2>';
+                            echo '<p class="desc-content">Grab your voucher now until May 22, 2022</p>';
+                            echo '<p class="desc-content"> Shake Shake Fries</p>';
+                            echo '<p class="desc-content"> That will make you shout uwu</p>';
+                        ?>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7 col-md-12 col-custom">
                         <div class="feature-image">
-                            <img src="assets/images/feature/feature-1.jpg" alt="Obrien Feature">
+                        <?php
+                            echo '<img src="assets/images/feature/fries.png" alt="Obrien Feature">';
+                        ?>
                         </div>
                     </div>
                 </div>
@@ -666,10 +697,12 @@
                 <div class="row">
                     <div class="col-lg-5 m-auto text-center col-custom">
                         <div class="section-content">
-                            <h2 class="title-1 text-uppercase">Best Sale</h2>
-                            <div class="desc-content">
-                                <p>All best seller product are now available for you and your can buy this product from here any time any where so sop now</p>
-                            </div>
+                        <?php
+                            echo '<h2 class="title-1 text-uppercase">Best Sellers!</h2>';
+                            echo '<div class="desc-content">';
+                            echo '<p>All best seller product are now available for you and your can buy this product from here any time any where so shop now!</p>';
+                            echo '</div>';
+                        ?>
                         </div>
                     </div>
                 </div>
@@ -696,8 +729,10 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/1.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/2.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        <?php
+                                            echo '<img src="assets/images/product/4.png" alt="" class="product-image-1 w-100">';
+                                          
+                                        ?>
                                         </a>
                                     </div>
                                     <div class="product-content">
@@ -709,21 +744,24 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
+                                        
+                                        <?php
+                                           
+                                        ?>
                                         </div>
                                         <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
+                                        <?php
+                                            echo '<span class="regular-price ">PHP145.00</span>';
+                                            echo '<span class="old-price"><del>PHP160.00</del></span>';
+                                        ?>
                                         </div>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
+                                        <a href="cart.php" title="Add To cart">
                                             <i class="ion-bag"></i>
                                         </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
+                                        
+                                        <a href="wishlist.php" title="Add To Wishlist">
                                             <i class="ion-ios-heart-outline"></i>
                                         </a>
                                         <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
@@ -736,8 +774,10 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/3.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        <?php
+                                            echo '<img src="assets/images/product/5.png" alt="" class="product-image-1 w-100">';
+                                        ?>
+                                            
                                         </a>
                                     </div>
                                     <div class="product-content">
@@ -748,22 +788,23 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Adobo</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP50.00</span>';
+                                            echo '<span class="old-price"><del>PHP60.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
+                                        <a href="cart.php" title="Add To cart">
                                             <i class="ion-bag"></i>
                                         </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
+                                    
                                         </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
+                                        <a href="wishlist.php" title="Add To Wishlist">
                                             <i class="ion-ios-heart-outline"></i>
                                         </a>
                                         <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
@@ -776,12 +817,16 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/6.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        <?php
+                                            echo '<img src="assets/images/product/6.png" alt="" class="product-image-1 w-100">';
+                                        ?>
+                                           
                                         </a>
                                     </div>
                                     <div class="label-product">
-                                        <span class="label-sale position-absolute text-uppercase text-white text-center d-block">Soldout</span>
+                                    <?php
+                                        echo '<span class="label-sale position-absolute text-uppercase text-white text-center d-block">Soldout</span>';
+                                    ?>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-rating">
@@ -791,22 +836,23 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP75.00</span>';
+                                            echo '<span class="old-price"><del>PHP85.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
+                                        <a href="cart.php" title="Add To cart">
                                             <i class="ion-bag"></i>
                                         </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
+                                        
                                         </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
+                                        <a href="wishlist.php" title="Add To Wishlist">
                                             <i class="ion-ios-heart-outline"></i>
                                         </a>
                                         <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
@@ -819,8 +865,10 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        <?php
+                                            echo '<img src="assets/images/product/7.png" alt="" class="product-image-1 w-100">';
+                                        ?>
+                                
                                         </a>
                                     </div>
                                     <div class="product-content">
@@ -831,22 +879,23 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Chinese Noodles</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP120.00</span>';
+                                            echo '<span class="old-price"><del> PHP135.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
+                                        <a href="cart.php" title="Add To cart">
                                             <i class="ion-bag"></i>
                                         </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
+                                        
                                         </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
+                                        <a href="wishlist.php" title="Add To Wishlist">
                                             <i class="ion-ios-heart-outline"></i>
                                         </a>
                                         <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
@@ -855,535 +904,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="single-item">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/9.jpg" alt="" class="product-image-1">
-                                            <img src="assets/images/product/10.jpg" alt="" class="product-image-2 position-absolute top-0 left-0">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                                </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Product Area End Here -->
         <!-- Banner Fullwidth Area Start Here -->
-        <div class="banner-fullwidth-area">
-            <div class="container custom-wrapper">
-                <div class="row">
-                    <div class="col-md-5 col-lg-6 text-center col-custom">
-                        <div class="banner-thumb h-100 d-flex justify-content-center align-items-center">
-                            <img src="assets/images/banner/thumb/1.png" alt="Banner Thumb">
-                        </div>
-                    </div>
-                    <div class="col-md-7 col-lg-6 text-center justify-content-center col-custom">
-                        <div class="banner-flash-content d-flex flex-column align-items-center justify-content-center h-100">
-                            <h2 class="deal-head text-uppercase">Flash Deals</h2>
-                            <h3 class="deal-title text-uppercase">Hurry up and Get 25% Discount</h3>
-                            <a href="shop.html" class="obrien-button primary-btn">Shop Now</a>
-                            <div class="countdown-wrapper d-flex justify-content-center" data-countdown="2022/12/24"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Banner Fullwidth Area End Here -->
         <!-- Banner Area Start Here -->
-        <div class="banner-area">
-            <div class="container container-default custom-area">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-custom">
-                        <div class="banner-image hover-style">
-                            <a class="d-block" href="shop.html">
-                                <img class="w-100" src="assets/images/banner/small-banner/1-1.png" alt="Banner Image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-custom">
-                        <div class="banner-image hover-style">
-                            <a class="d-block" href="shop.html">
-                                <img class="w-100" src="assets/images/banner/small-banner/1-2.png" alt="Banner Image">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-custom">
-                        <div class="banner-image hover-style mb-0">
-                            <a class="d-block" href="shop.html">
-                                <img class="w-100" src="assets/images/banner/small-banner/1-3.png" alt="Banner Image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Banner Area End Here -->
         <!-- Product Area Start Here -->
-        <div class="product-area">
-            <div class="container container-default custom-area">
-                <div class="row">
-                    <div class="col-lg-5 m-auto text-center col-custom">
-                        <div class="section-content">
-                            <h2 class="title-1 text-uppercase">Featured Products</h2>
-                            <div class="desc-content">
-                                <p>All best seller product are now available for you and your can buy this product from here any time any where so sop now</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="product-wrapper col-lg-12 col-custom">
-                        <div class="product-slider" data-slick-options='{
-                    "slidesToShow": 4,
-                    "slidesToScroll": 1,
-                    "infinite": true,
-                    "arrows": false,
-                    "dots": false
-                    }' data-slick-responsive='[
-                    {"breakpoint": 1200, "settings": {
-                    "slidesToShow": 3
-                    }},
-                    {"breakpoint": 992, "settings": {
-                    "slidesToShow": 2
-                    }},
-                    {"breakpoint": 576, "settings": {
-                    "slidesToShow": 1
-                    }}
-                    ]'>
-                            <div class="single-item">
-                                <div class="single-product position-relative mb-30">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/1.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/2.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/10.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="single-product position-relative mb-30">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/3.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="single-product position-relative mb-30">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/6.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="label-product">
-                                        <span class="label-sale position-absolute text-uppercase text-white text-center d-block">Soldout</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/6.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/3.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="label-product">
-                                        <span class="label-sale position-absolute text-uppercase text-white text-center d-block">Soldout</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="single-product position-relative mb-30">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/1.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/3.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="single-product position-relative mb-30">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/9.jpg" alt="" class="product-image-1">
-                                            <img src="assets/images/product/10.jpg" alt="" class="product-image-2 position-absolute top-0 left-0">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-1">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-2 position-absolute top-0 left-0">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Product Area End Here -->
         <!-- Newslatter Area Start Here -->
         <div class="newsletter-area">
@@ -1392,13 +926,15 @@
                     <div class="col-lg-8 col-xl-5 offset-xl-6 offset-lg-3 col-custom">
                         <div class="newsletter-content text-center d-flex flex-column align-items-center justify-content-center h-100">
                             <div class="section-content">
-                                <h4 class="title-4 text-uppercase">Special <span>Offer</span> for subscription</h4>
-                                <h2 class="title-3 text-uppercase">Get instant discount for membership</h2>
-                                <p class="desc-content">Subscribe our newsletter and all latest news of our <br>latest product, promotion and offers</p>
+                            <?php
+                                echo '<h4 class="title-4 text-uppercase">Special <span>Offer</span> for subscription</h4>';
+                                echo '<h2 class="title-3 text-uppercase">Get instant discount for membership</h2>';
+                                echo '<p class="desc-content">Subscribe our newsletter and all latest news of our <br>latest product, promotion and offers</p>';
+                            ?>
                             </div>
                             <div class="newsletter-form-wrap ml-auto mr-auto">
                                 <form id="mc-form" class="mc-form d-flex position-relative">
-                                    <input type="email" id="mc-email" class="form-control email-box" placeholder="email@example.com" name="EMAIL">
+                                    <input type="email" id="mc-email" class="form-control email-box" placeholder="FoodKo@email.com" name="EMAIL">
                                     <button id="mc-submit" class="btn primary-btn obrien-button newsletter-btn position-absolute" type="submit">Subscribe</button>
                                 </form>
                                 <!-- mailchimp-alerts Start -->
@@ -1416,123 +952,7 @@
         </div>
         <!-- Newslatter Area End Here -->
         <!-- Latest Blog Area Start Here -->
-        <div class="latest-blog-area">
-            <div class="container container-default custom-area">
-                <div class="row">
-                    <div class="col-lg-5 m-auto text-center col-custom">
-                        <div class="section-content">
-                            <h2 class="title-1 text-uppercase">Latest Blog</h2>
-                            <div class="desc-content">
-                                <p>If you want to know about the organic product then keep an eye on our blog.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-custom">
-                        <div class="obrien-slider" data-slick-options='{
-                        "slidesToShow": 3,
-                        "slidesToScroll": 1,
-                        "infinite": true,
-                        "arrows": false,
-                        "dots": false
-                        }' data-slick-responsive='[
-                        {"breakpoint": 1200, "settings": {
-                        "slidesToShow": 2
-                        }},
-                        {"breakpoint": 992, "settings": {
-                        "slidesToShow": 2
-                        }},
-                        {"breakpoint": 768, "settings": {
-                        "slidesToShow": 1
-                        }},
-                        {"breakpoint": 576, "settings": {
-                        "slidesToShow": 1
-                        }}
-                        ]'>
-                            <div class="single-blog">
-                                <div class="single-blog-thumb">
-                                    <a href="blog.html">
-                                        <img src="assets/images/blog/medium-size/1.jpg" alt="Blog Image">
-                                    </a>
-                                </div>
-                                <div class="single-blog-content position-relative">
-                                    <div class="post-date text-center border rounded d-flex flex-column position-absolute">
-                                        <span>14</span>
-                                        <span>01</span>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="author">Author: Obrien Demo Admin</span>
-                                    </div>
-                                    <h2 class="post-title">
-                                        <a href="blog.html">There Are Many Variation of Passages of Lorem Ipsum Available</a>
-                                    </h2>
-                                    <p class="desc-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
-                                </div>
-                            </div>
-                            <div class="single-blog">
-                                <div class="single-blog-thumb">
-                                    <a href="blog.html">
-                                        <img src="assets/images/blog/medium-size/2.jpg" alt="Blog Image">
-                                    </a>
-                                </div>
-                                <div class="single-blog-content position-relative">
-                                    <div class="post-date text-center border rounded d-flex flex-column position-absolute">
-                                        <span>14</span>
-                                        <span>01</span>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="author">Author: Obrien Demo Admin</span>
-                                    </div>
-                                    <h2 class="post-title">
-                                        <a href="blog.html">There Are Many Variation of Passages of Lorem Ipsum Available</a>
-                                    </h2>
-                                    <p class="desc-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
-                                </div>
-                            </div>
-                            <div class="single-blog">
-                                <div class="single-blog-thumb">
-                                    <a href="blog.html">
-                                        <img src="assets/images/blog/medium-size/3.jpg" alt="Blog Image">
-                                    </a>
-                                </div>
-                                <div class="single-blog-content position-relative">
-                                    <div class="post-date text-center border rounded d-flex flex-column position-absolute">
-                                        <span>14</span>
-                                        <span>01</span>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="author">Author: Obrien Demo Admin</span>
-                                    </div>
-                                    <h2 class="post-title">
-                                        <a href="blog.html">The Standard Chunk Of Lorem Ipsum Used Since</a>
-                                    </h2>
-                                    <p class="desc-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
-                                </div>
-                            </div>
-                            <div class="single-blog">
-                                <div class="single-blog-thumb">
-                                    <a href="blog.html">
-                                        <img src="assets/images/blog/medium-size/4.jpg" alt="Blog Image">
-                                    </a>
-                                </div>
-                                <div class="single-blog-content position-relative">
-                                    <div class="post-date text-center border rounded d-flex flex-column position-absolute">
-                                        <span>14</span>
-                                        <span>01</span>
-                                    </div>
-                                    <div class="post-meta">
-                                        <span class="author">Author: Obrien Demo Admin</span>
-                                    </div>
-                                    <h2 class="post-title">
-                                        <a href="blog.html">There Are Many Variation of Passages of Lorem Ipsum Available</a>
-                                    </h2>
-                                    <p class="desc-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Latest Blog Area End Here -->
         <!-- Support Area Start Here -->
         <div class="support-area">
@@ -1540,13 +960,15 @@
                 <div class="row">
                     <div class="col-lg-12 col-custom">
                         <div class="support-wrapper d-flex">
-                            <div class="support-content">
-                                <h1 class="title">Need Help ?</h1>
-                                <p class="desc-content">Call our support 24/7 at 01234-567-890</p>
-                            </div>
-                            <div class="support-button d-flex align-items-center">
-                                <a class="obrien-button primary-btn" href="contact-us.html">Contact now</a>
-                            </div>
+                        <?php
+                            echo '<div class="support-content">';
+                            echo '<h1 class="title">Need Help ?</h1>';
+                            echo '<p class="desc-content">Call our support 24/7 at 01234-567-890</p>';
+                            echo '</div>';
+                            echo '<div class="support-button d-flex align-items-center">';
+                            echo '<a class="obrien-button primary-btn" href="contact-us.php">Contact now</a>';
+                            echo '</div>';
+                        ?>
                         </div>
                     </div>
                 </div>
@@ -1561,11 +983,13 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
                             <div class="single-footer-widget m-0">
                                 <div class="footer-logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/footer.png" alt="Logo Image">
+                                    <a href="index.php">
+                                        <img src="assets/images/logo/lugo1.png" alt="Logo Image">
                                     </a>
                                 </div>
-                                <p class="desc-content">Obrien is the best parts shop of your daily nutritions. What kind of nutrition do you need you can get here soluta nobis</p>
+                                <?php
+                                    echo '<p class="desc-content">FoodKo is the best Online Food Ordering Website!</p>';
+                                ?>
                                 <div class="social-links">
                                     <ul class="d-flex">
                                         <li>
@@ -1599,46 +1023,54 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">Information</h2>
-                                <ul class="widget-list">
-                                    <li><a href="about-us.html">Our Company</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
-                                    <li><a href="about-us.html">Our Services</a></li>
-                                    <li><a href="about-us.html">Why We?</a></li>
-                                    <li><a href="about-us.html">Careers</a></li>
-                                </ul>
+                            <?php
+                                echo '<h2 class="widget-title">Information</h2>';
+                                echo '<ul class="widget-list">';
+                                echo '<li><a href="about-us.php">Our Company</a></li>';
+                                echo '<li><a href="contact-us.php">Contact Us</a></li>';
+                                echo '<li><a href="about-us.php">Our Services</a></li>';
+                                echo '<li><a href="about-us.php">Why We?</a></li>';
+                                echo '<li><a href="about-us.php">Careers</a></li>';
+                                echo '</ul>';
+                            ?>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">Quicklink</h2>
-                                <ul class="widget-list">
-                                    <li><a href="about-us.html">About</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
+                            <?php
+                                echo '<h2 class="widget-title">Quicklink</h2>';
+                                echo '<ul class="widget-list">';
+                                echo '<li><a href="about-us.php">About</a></li>';
+                                echo '<li><a href="blog.php">Blog</a></li>';
+                                echo '<li><a href="shop.php">Shop</a></li>';
+                                echo '<li><a href="cart.php">Cart</a></li>';
+                                echo '<li><a href="contact-us.php">Contact</a></li>';
+                                echo '</ul>';
+                            ?>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">Support</h2>
-                                <ul class="widget-list">
-                                    <li><a href="contact-us.html">Online Support</a></li>
-                                    <li><a href="contact-us.html">Shipping Policy</a></li>
-                                    <li><a href="contact-us.html">Return Policy</a></li>
-                                    <li><a href="contact-us.html">Privacy Policy</a></li>
-                                    <li><a href="contact-us.html">Terms of Service</a></li>
+                            <?php
+                                echo '<h2 class="widget-title">Support</h2>';
+                                echo '<ul class="widget-list">';
+                                echo '<li><a href="contact-us.php">Online Support</a></li>';
+                            ?>
+                                    <li><a href="contact-us.php"></a></li>
+                                    <li><a href="contact-us.php"></a></li>
+                                    <li><a href="contact-us.php"></a></li>
+                                    <li><a href="contact-us.php"></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">See Information</h2>
-                                <div class="widget-body">
-                                    <address>123, H2, Road #21, Main City, Your address goes here.<br>Phone: 01254 698 785, 36598 254 987<br>Email: https://example.com</address>
-                                </div>
+                            <?php
+                                echo '<h2 class="widget-title">See Information</h2>';
+                                echo '<div class="widget-body">';
+                                echo '<address>Santol, Boac, Marinduque <br>Phone: 01254 698 785, 36598 254 987<br>Email: foodko@gmail.com</address>';
+                                echo '</div>';
+                            ?>
                             </div>
                         </div>
                     </div>
@@ -1671,19 +1103,23 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 text-center">
                                 <div class="product-image">
-                                    <img src="assets/images/product/1.jpg" alt="Product Image">
+                                <?php
+                                    echo '<img src="assets/images/product/4.png" alt="Product Image">';
+                                ?>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="modal-product">
                                     <div class="product-content">
-                                        <div class="product-title">
-                                            <h4 class="title">Product dummy name</h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                    <?php
+                                        echo '<div class="product-title">';
+                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '</div>';
+                                        echo '<div class="price-box">';
+                                        echo '<span class="regular-price ">PHP145.00</span>';
+                                        echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                        echo '</div>';
+                                    ?>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -1692,16 +1128,21 @@
                                             <i class="fa fa-star-o"></i>
                                             <span>1 Review</span>
                                         </div>
-                                        <p class="desc-content">we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame bel...</p>
-                                        <form class="d-flex flex-column w-100" action="#">
+                                        <?php
+                                            echo '<p class="desc-content">Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</p>';
+                                            echo '';
+                                        ?>                                        
+                                            <form class="d-flex flex-column w-100" action="#">
                                             <div class="form-group">
-                                                <select class="form-control nice-select w-100">
-                                                    <option>S</option>
-                                                    <option>M</option>
-                                                    <option>L</option>
-                                                    <option>XL</option>
-                                                    <option>XXL</option>
-                                                </select>
+                                            <?php
+                                                echo '<select class="form-control nice-select w-100">';
+                                                echo '<option>S</option>';
+                                                echo '<option>M</option>';
+                                                echo '<option>L</option>';
+                                                echo '<option>XL</option>';
+                                                echo '<option>XXL</option>';
+                                                echo '</select>';
+                                            ?>
                                             </div>
                                         </form>
                                         <div class="quantity-with_btn">
@@ -1713,7 +1154,9 @@
                                                 </div>
                                             </div>
                                             <div class="add-to_cart">
-                                                <a class="btn obrien-button primary-btn" href="cart.html">Add to cart</a>
+                                            <?php
+                                                echo '<a class="btn obrien-button primary-btn" href="cart.php">Add to cart</a>';
+                                            ?>
                                             </div>
                                         </div>
                                     </div>
