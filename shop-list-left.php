@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Obrien - Organic Food HTML5 Template</title>
+    <title>FoodKo</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -52,8 +52,10 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo d-flex align-items-center">
-                                        <a href="index.html">
-                                            <img class="img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                                        <a href="index.php">
+                                        <?php
+                                            echo '<img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">';
+                                        ?>
                                         </a>
                                     </div>
                                 </div>
@@ -61,91 +63,86 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a href="index.html">
-                                                    <span class="menu-text"> Home</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                <a href="index.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                ?>
+                                                   
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="index.html">Home Page - 1</a></li>
-                                                    <li><a href="index-2.html">Home Page - 2</a></li>
-                                                    <li><a href="index-3.html">Home Page - 3</a></li>
-                                                    <li><a href="index-4.html">Home Page - 4</a></li>
-                                                </ul>
+                                                
                                             </li>
                                             <li>
-                                                <a class="active" href="shop.html">
-                                                    <span class="menu-text">Shop</span>
+                                                <a class="active" href="shop-list-left.php">
+                                                <?php
+                                                    echo '<span class="menu-text">Shop</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <div class="mega-menu dropdown-hover">
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Shop</span></li>
-                                                            <li><a href="shop.html">Shop Left Sidebar</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                            <li><a class="active" href="shop-list-left.html">Shop List Left Sidebar</a></li>
-                                                            <li><a href="shop-list-right.html">Shop List Right Sidebar</a></li>
-                                                            <li><a href="shop-fullwidth.html">Shop Full Width</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
+                                                            echo '<li><a href="shop.html">Chinese Food</a></li>';
+                                                            echo '<li><a href="shop-right-sidebar.html">Japanese Food</a></li>';
+                                                            echo '<li><a class="active" href="shop-list-left.html">Filipino Food</a></li>';
+                                                            echo '';
+                                                        ?>
                                                         </ul>
                                                     </div>
+                                                   
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Product</span></li>
-                                                            <li><a href="product-details.html">Single Product</a></li>
-                                                            <li><a href="variable-product-details.html">Variable Product</a></li>
-                                                            <li><a href="external-product-details.html">External Product</a></li>
-                                                            <li><a href="gallery-product-details.html">Gallery Product</a></li>
-                                                            <li><a href="countdown-product-details.html">Countdown Product</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="menu-colum">
-                                                        <ul>
-                                                            <li><span class="mega-menu-text">Others</span></li>
-                                                            <li><a href="error-404.html">Error 404</a></li>
-                                                            <li><a href="compare.html">Compare Page</a></li>
-                                                            <li><a href="cart.html">Cart Page</a></li>
-                                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                                            <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Others</span></li>';
+                                                            echo '';
+                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                        ?>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="blog-details-fullwidth.html">
-                                                    <span class="menu-text"> Blog</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                <a href="blog-details-sidebar.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> Blog</span>';
+                                                ?>
+                                                    
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                                    <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth</a></li>
+                                                    
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <span class="menu-text"> Pages</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> Pages</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="frequently-questions.html">FAQ</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
+                                                <?php
+                                                    echo '<li><a href="frequently-questions.php">FAQ</a></li>';
+                                                    echo '<li><a href="my-account.php">My Account</a></li>';
+                                                    echo '<li><a href="login.php">Login</a></li>';
+                                                    echo '<li><a href="register.php">Register</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="about-us.html">
-                                                    <span class="menu-text"> About</span>
+                                                <a href="about-us.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> About</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact-us.html">
-                                                    <span class="menu-text">Contact</span>
+                                                <a href="contact-us.php">
+                                                <?php
+                                                    echo '<span class="menu-text">Contact</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                         </ul>
@@ -155,20 +152,24 @@
                                     <div class="header-right-area main-nav">
                                         <ul class="nav">
                                             <li class="login-register-wrap d-none d-xl-flex">
-                                                <span><a href="login.html">Login</a></span>
-                                                <span><a href="register.html">Register</a></span>
+                                            <?php
+                                                echo '<span><a href="login.php">Login</a></span>';
+                                                echo '<span><a href="register.php">Register</a></span>';
+                                            ?>
                                             </li>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
                                                 <ul class="dropdown-sidemenu dropdown-hover-2 dropdown-language">
-                                                    <li><a href="#">USD - US Dollar</a></li>
-                                                    <li><a href="#">EUR - Euro</a></li>
-                                                    <li><a href="#">GBP - British Pound</a></li>
-                                                    <li><a href="#">INR - Indian Rupee</a></li>
-                                                    <li><a href="#">BDT - Bangladesh Taka</a></li>
-                                                    <li><a href="#">JPY - Japan Yen</a></li>
-                                                    <li><a href="#">CAD - Canada Dollar</a></li>
-                                                    <li><a href="#">AUD - Australian Dollar</a></li>
+                                                <?php
+                                                    echo '<li><a href="#">USD - US Dollar</a></li>';
+                                                    echo '<li><a href="#">EUR - Euro</a></li>';
+                                                    echo '<li><a href="#">GBP - British Pound</a></li>';
+                                                    echo '<li><a href="#">INR - Indian Rupee</a></li>';
+                                                    echo '<li><a href="#">BDT - Bangladesh Taka</a></li>';
+                                                    echo '<li><a href="#">JPY - Japan Yen</a></li>';
+                                                    echo '<li><a href="#">CAD - Canada Dollar</a></li>';
+                                                    echo '<li><a href="#">AUD - Australian Dollar</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li class="minicart-wrap">
@@ -179,56 +180,76 @@
                                                 <div class="cart-item-wrapper dropdown-sidemenu dropdown-hover-2">
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/1.jpg" alt=""></a>
+                                                        <?php
+                                                            echo '<a href="cart.php"><img src="assets/images/cart/4.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">11. Product with video - navy</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<div class="cart-text-btn">';
+                                                            echo '<div class="cart-qty">';
+                                                            echo '<span>1×</span>';
+                                                            echo '<span class="cart-price">PHP145.00</span>';
+                                                            echo '</div>';
+                                                        ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/2.jpg" alt=""></a>
+                                                        <?php
+                                                                    echo '<a href="cart.php"><img src="assets/images/cart/5.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html" title="10. This is the large title for testing large title and there is an image for testing - white">10. This is the large title for testing...</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                            <h5 class="title"><a href="cart.php" title="Adobo">Adobo</a></h5>
+                                                            <?php
+                                                                echo '<div class="cart-text-btn">';
+                                                                echo '<div class="cart-qty">';
+                                                                echo '<span>1×</span>';
+                                                                echo '<span class="cart-price">PHP50.00</span>';
+                                                                echo '</div>';
+                                                            ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/3.jpg" alt=""></a>
+                                                            <a href="cart.html"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">1. New and sale badge product - s / red</a></h5>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.php">Halo-Halo</a></h5>';
+                                                        ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP75.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                    <div class="single-cart-item">
+                                                        
+                                                        
                                                     </div>
                                                     <div class="cart-price-total d-flex justify-content-between">
-                                                        <h5>Total :</h5>
-                                                        <h5>$166.00</h5>
+                                                    <?php
+                                                        echo '<h5>Total :</h5>';
+                                                        echo '<h5>PHP270.00</h5>';
+                                                    ?>
                                                     </div>
                                                     <div class="cart-links d-flex justify-content-center">
-                                                        <a class="obrien-button white-btn" href="cart.html">View cart</a>
-                                                        <a class="obrien-button white-btn" href="checkout.html">Checkout</a>
+                                                    <?php
+                                                        echo '<a class="obrien-button white-btn" href="cart.php">View cart</a>';
+                                                        echo '<a class="obrien-button white-btn" href="checkout.php">Checkout</a>';
+                                                    ?>
                                                     </div>
                                                 </div>
                                             </li>
@@ -263,69 +284,49 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a href="index.html">
+                                                <a href="index.php">
                                                     <span class="menu-text"> Home</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                    
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="index.html">Home Page - 1</a></li>
-                                                    <li><a href="index-2.html">Home Page - 2</a></li>
-                                                    <li><a href="index-3.html">Home Page - 3</a></li>
-                                                    <li><a href="index-4.html">Home Page - 4</a></li>
-                                                </ul>
+                                                
                                             </li>
                                             <li>
-                                                <a class="active" href="shop.html">
+                                                <a class="active" href="shop-list-left.php">
                                                     <span class="menu-text">Shop</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <div class="mega-menu dropdown-hover">
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Shop</span></li>
-                                                            <li><a href="shop.html">Shop Left Sidebar</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                            <li><a class="active" href="shop-list-left.html">Shop List Left Sidebar</a></li>
-                                                            <li><a href="shop-list-right.html">Shop List Right Sidebar</a></li>
-                                                            <li><a href="shop-fullwidth.html">Shop Full Width</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
+                                                            
+                                                            echo '<li><a href="shop.html">Chinese Food</a></li>';
+                                                            echo '<li><a href="shop-right-sidebar.php">Japanese Food</a></li>';
+                                                            echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
+                                                        ?>
                                                         </ul>
                                                     </div>
+                                                    
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Product</span></li>
-                                                            <li><a href="product-details.html">Single Product</a></li>
-                                                            <li><a href="variable-product-details.html">Variable Product</a></li>
-                                                            <li><a href="external-product-details.html">External Product</a></li>
-                                                            <li><a href="gallery-product-details.html">Gallery Product</a></li>
-                                                            <li><a href="countdown-product-details.html">Countdown Product</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="menu-colum">
-                                                        <ul>
-                                                            <li><span class="mega-menu-text">Others</span></li>
-                                                            <li><a href="error-404.html">Error 404</a></li>
-                                                            <li><a href="compare.html">Compare Page</a></li>
-                                                            <li><a href="cart.html">Cart Page</a></li>
-                                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                                            <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Others</span></li>';
+                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                        ?>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="blog-details-fullwidth.html">
+                                                <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                    
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                                    <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth</a></li>
+                                                    
                                                 </ul>
                                             </li>
                                             <li>
@@ -333,21 +334,27 @@
                                                     <span class="menu-text"> Pages</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="frequently-questions.html">FAQ</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                </ul>
+                                                <?php
+                                                    echo '<ul class="dropdown-submenu dropdown-hover">';
+                                                    echo '<li><a href="frequently-questions.php">FAQ</a></li>';
+                                                    echo '<li><a href="my-account.php">My Account</a></li>';
+                                                    echo '<li><a href="login.php">Login</a></li>';
+                                                    echo '<li><a href="register.php">Register</a></li>';
+                                                    echo '</ul>';
+                                                ?>
                                             </li>
                                             <li>
                                                 <a href="about-us.html">
-                                                    <span class="menu-text"> About</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> About</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="contact-us.html">
-                                                    <span class="menu-text">Contact</span>
+                                                <?php
+                                                    echo '<span class="menu-text">Contact</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                         </ul>
@@ -356,21 +363,25 @@
                                 <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
                                     <div class="header-right-area main-nav">
                                         <ul class="nav">
-                                            <li class="login-register-wrap d-none d-xl-flex">
-                                                <span><a href="login.html">Login</a></span>
-                                                <span><a href="register.html">Register</a></span>
-                                            </li>
+                                        <?php
+                                            echo '<li class="login-register-wrap d-none d-xl-flex">';
+                                            echo '<span><a href="login.php">Login</a></span>';
+                                            echo '<span><a href="register.php">Register</a></span>';
+                                            echo '</li>';
+                                        ?>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
                                                 <ul class="dropdown-sidemenu dropdown-hover-2 dropdown-language">
-                                                    <li><a href="#">USD - US Dollar</a></li>
-                                                    <li><a href="#">EUR - Euro</a></li>
-                                                    <li><a href="#">GBP - British Pound</a></li>
-                                                    <li><a href="#">INR - Indian Rupee</a></li>
-                                                    <li><a href="#">BDT - Bangladesh Taka</a></li>
-                                                    <li><a href="#">JPY - Japan Yen</a></li>
-                                                    <li><a href="#">CAD - Canada Dollar</a></li>
-                                                    <li><a href="#">AUD - Australian Dollar</a></li>
+                                                <?php
+                                                    echo '<li><a href="#">USD - US Dollar</a></li>';
+                                                    echo '<li><a href="#">EUR - Euro</a></li>';
+                                                    echo '<li><a href="#">GBP - British Pound</a></li>';
+                                                    echo '<li><a href="#">INR - Indian Rupee</a></li>';
+                                                    echo '<li><a href="#">BDT - Bangladesh Taka</a></li>';
+                                                    echo '<li><a href="#">JPY - Japan Yen</a></li>';
+                                                    echo '<li><a href="#">CAD - Canada Dollar</a></li>';
+                                                    echo '<li><a href="#">AUD - Australian Dollar</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li class="minicart-wrap">
@@ -381,56 +392,72 @@
                                                 <div class="cart-item-wrapper dropdown-sidemenu dropdown-hover-2">
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/1.jpg" alt=""></a>
+                                                        <?php
+                                                            echo '<a href="cart.php"><img src="assets/images/cart/4.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">11. Product with video - navy</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<div class="cart-text-btn">';
+                                                            echo '<div class="cart-qty">';
+                                                            echo '<span>1×</span>';
+                                                            echo '<span class="cart-price">PHP145.00</span>';
+                                                            echo '</div>';
+                                                        ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/2.jpg" alt=""></a>
+                                                        <?php
+                                                                    echo '<a href="cart.php"><img src="assets/images/cart/5.png" alt=""></a>';
+                                                        ?>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html" title="10. This is the large title for testing large title and there is an image for testing - white">10. This is the large title for testing...</a></h5>
-                                                            <div class="cart-text-btn">
-                                                                <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
-                                                                </div>
+                                                            <h5 class="title"><a href="cart.php" title="Adobo">Adobo</a></h5>
+                                                            <?php
+                                                                echo '<div class="cart-text-btn">';
+                                                                echo '<div class="cart-qty">';
+                                                                echo '<span>1×</span>';
+                                                                echo '<span class="cart-price">PHP50.00</span>';
+                                                                echo '</div>';
+                                                            ?>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/3.jpg" alt=""></a>
+                                                            <a href="cart.php"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
-                                                            <h5 class="title"><a href="cart.html">1. New and sale badge product - s / red</a></h5>
+                                                        <?php
+                                                            echo '<h5 class="title"><a href="cart.php">Halo-Halo</a></h5>';
+                                                        ?>
                                                             <div class="cart-text-btn">
                                                                 <div class="cart-qty">
-                                                                    <span>1×</span>
-                                                                    <span class="cart-price">$98.00</span>
+                                                                <?php
+                                                                    echo '<span>1×</span>';
+                                                                    echo '<span class="cart-price">PHP75.00</span>';
+                                                                ?>
                                                                 </div>
                                                                 <button type="button"><i class="ion-trash-b"></i></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="cart-price-total d-flex justify-content-between">
-                                                        <h5>Total :</h5>
-                                                        <h5>$166.00</h5>
+                                                    <?php
+                                                            echo '<h5>Total :</h5>';
+                                                            echo '<h5>PHP270.00</h5>';
+                                                    ?>
                                                     </div>
                                                     <div class="cart-links d-flex justify-content-center">
-                                                        <a class="obrien-button white-btn" href="cart.html">View cart</a>
-                                                        <a class="obrien-button white-btn" href="checkout.html">Checkout</a>
+                                                    <?php
+                                                        echo '<a class="obrien-button white-btn" href="cart.php">View cart</a>';
+                                                        echo '<a class="obrien-button white-btn" href="checkout.php">Checkout</a>';
+                                                    ?>
                                                     </div>
                                                 </div>
                                             </li>
@@ -599,11 +626,8 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <div class="breadcrumb-content position-relative section-content">
-                            <h3 class="title-3">Shop Sidebar</h3>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li>Shop</li>
-                            </ul>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -625,12 +649,14 @@
                                 <form class="d-flex flex-column w-100" action="#">
                                     <div class="form-group">
                                         <select class="form-control nice-select w-100">
-                                            <option selected value="1">Alphabetically, A-Z</option>
-                                            <option value="2">Sort by popularity</option>
-                                            <option value="3">Sort by newness</option>
-                                            <option value="4">Sort by price: low to high</option>
-                                            <option value="5">Sort by price: high to low</option>
-                                            <option value="6">Product Name: Z</option>
+                                        <?php
+                                            echo '<option selected value="1">Alphabetically, A-Z</option>';
+                                            echo '<option value="2">Sort by popularity</option>';
+                                            echo '<option value="3">Sort by newness</option>';
+                                            echo '<option value="4">Sort by price: low to high</option>';
+                                            echo '<option value="5">Sort by price: high to low</option>';
+                                            echo '<option value="6">Product Name: Z</option>';
+                                        ?>
                                         </select>
                                     </div>
                                 </form>
@@ -642,26 +668,22 @@
                             <div class="col-12 col-custom product-area">
                                 <div class="single-product position-relative">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/1.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/2.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                    <?php
+                                    echo '<img src="assets/images/product/4.png" alt="Product Image">';
+                                    ?>
                                         </a>
                                     </div>
                                     <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                        
+                                    <?php
+                                        echo '<div class="product-title">';
+                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '</div>';
+                                        echo '<div class="price-box">';
+                                        echo '<span class="regular-price ">PHP145.00</span>';
+                                        echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                        echo '</div>';
+                                    ?>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
                                         <a href="cart.html" title="Add To cart">
@@ -685,30 +707,32 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title">Sushi</h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP145.00</span>';
+                                            echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                         <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
+                                            <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                           
+                                            <a href="wishlist.php" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
                                         </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
+                                        <?php
+                                            echo '<p class="desc-content">';
+                                            echo 'Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.';
+                                            echo '</p>';
+                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -716,8 +740,10 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/3.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        <?php
+                                            echo '<img src="assets/images/product/5.png" alt="" class="product-image-1 w-100">';
+                                        ?>
+                                            
                                         </a>
                                     </div>
                                     <div class="product-content">
@@ -729,7 +755,7 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Unique content for</a></h4>
+                                            <h4 class="title-2"> <a href="product-details.html">Sushi</a></h4>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$70.00</span>
@@ -758,13 +784,15 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Unique content for</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$70.00</span>
-                                            <span class="old-price"><del>$80.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Adobo</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP50.00</span>';
+                                            echo '<span class="old-price"><del>PHP60.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -780,18 +808,18 @@
                                             </a>
                                         </div>
                                         <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
+                                        <i> Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.</i>                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
                                 <div class="single-product position-relative">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/6.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
+                                    <?php
+                                        echo '<a class="d-block" href="product-details.html">';
+                                        echo '<img src="assets/images/product/6.png" alt="" class="product-image-1 w-100">';
+                                        echo '</a>';
+                                    ?>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-rating">
@@ -801,13 +829,15 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">New badge product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$60.00</span>
-                                            <span class="old-price"><del>$70.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP75.00</span>';
+                                            echo '<span class="old-price"><del>PHP85.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                     </div>
                                     <div class="add-action d-flex position-absolute">
                                         <a href="cart.html" title="Add To cart">
@@ -831,13 +861,15 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">New badge product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$60.00</span>
-                                            <span class="old-price"><del>$70.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP75.00</span>';
+                                            echo '<span class="old-price"><del>PHP85.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -852,19 +884,22 @@
                                                 <i class="ion-eye"></i>
                                             </a>
                                         </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
+                                        <?php
+                                            echo '<p class="desc-content">';
+                                            echo 'Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.';
+                                            echo '</p>';
+                                        ?>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
                                 <div class="single-product position-relative">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
+                                    <?php
+                                        echo '<a class="d-block" href="product-details.html">';
+                                        echo '<img src="assets/images/product/7.png" alt="" class="product-image-1 w-100">';
+                                        echo '</a>';
+                                    ?>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-rating">
@@ -904,13 +939,15 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">New and sale badge</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$50.00</span>
-                                            <span class="old-price"><del>$60.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Chinese Noodles</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP120.00</span>';
+                                            echo '<span class="old-price"><del> PHP135.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -925,19 +962,30 @@
                                                 <i class="ion-eye"></i>
                                             </a>
                                         </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
+                                        <?php
+                                            echo '<p class="desc-content">';
+                                            echo 'Noodles are an essential ingredient and staple in Chinese cuisine. Chinese noodles vary widely according to the region of production, ingredients, shape or width, and manner of preparation. They are an important part of most regional cuisines within China, and other countries with sizable overseas Chinese populations.';
+                                            echo '</p>';
+                                        ?>
                                     </div>
                                 </div>
                             </div>
+                            
+                            
+                           
+                           
+                            
+                            
+                            
                             <div class="col-12 col-custom product-area">
                                 <div class="single-product position-relative">
                                     <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/9.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/10.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
+                                    <?php
+                                        echo '<a class="d-block" href="product-details.html">';
+                                        echo '<img src="assets/images/product/8.png" alt="" class="product-image-1 w-100">';
+                                        echo '';
+                                        echo '</a>';
+                                    ?>
                                     </div>
                                     <div class="product-content">
                                         <div class="product-rating">
@@ -948,518 +996,7 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">This is the large</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$30.00</span>
-                                            <span class="old-price"><del>$50.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">This is the large</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$30.00</span>
-                                            <span class="old-price"><del>$50.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Soldout product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$50.00</span>
-                                            <span class="old-price"><del>$55.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Soldout product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$50.00</span>
-                                            <span class="old-price"><del>$55.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Simple product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$40.00</span>
-                                            <span class="old-price"><del>$44.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Simple product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$40.00</span>
-                                            <span class="old-price"><del>$44.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/2.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/4.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Sample product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$60.00</span>
-                                            <span class="old-price"><del>$77.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Sample product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$60.00</span>
-                                            <span class="old-price"><del>$77.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/7.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Countdown product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$44.99</span>
-                                            <span class="old-price"><del>$55.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Countdown product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$44.99</span>
-                                            <span class="old-price"><del>$55.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/6.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/8.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Without shortcode</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$70.00</span>
-                                            <span class="old-price"><del>$88.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Without shortcode</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$70.00</span>
-                                            <span class="old-price"><del>$88.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/9.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/2.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Variable Product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$10.00</span>
-                                            <span class="old-price"><del>$20.00</del></span>
-                                        </div>
-                                    </div>
-                                    <div class="add-action d-flex position-absolute">
-                                        <a href="cart.html" title="Add To cart">
-                                            <i class="ion-bag"></i>
-                                        </a>
-                                        <a href="compare.html" title="Compare">
-                                            <i class="ion-ios-loop-strong"></i>
-                                        </a>
-                                        <a href="wishlist.html" title="Add To Wishlist">
-                                            <i class="ion-ios-heart-outline"></i>
-                                        </a>
-                                        <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                            <i class="ion-eye"></i>
-                                        </a>
-                                    </div>
-                                    <div class="product-content-listview">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Variable Product</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$10.00</span>
-                                            <span class="old-price"><del>$20.00</del></span>
-                                        </div>
-                                        <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
-                                                <i class="ion-bag"></i>
-                                            </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
-                                                <i class="ion-ios-heart-outline"></i>
-                                            </a>
-                                            <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
-                                                <i class="ion-eye"></i>
-                                            </a>
-                                        </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-custom product-area">
-                                <div class="single-product position-relative">
-                                    <div class="product-image">
-                                        <a class="d-block" href="product-details.html">
-                                            <img src="assets/images/product/5.jpg" alt="" class="product-image-1 w-100">
-                                            <img src="assets/images/product/1.jpg" alt="" class="product-image-2 position-absolute w-100">
-                                        </a>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
+                                            <h4 class="title-2"> <a href="product-details.html">Sushi</a></h4>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$40.00</span>
@@ -1488,30 +1025,32 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$40.00</span>
-                                            <span class="old-price"><del>$44.00</del></span>
-                                        </div>
+                                        <?php
+                                            echo '<div class="product-title">';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Dimsum</a></h4>';
+                                            echo '</div>';
+                                            echo '<div class="price-box">';
+                                            echo '<span class="regular-price ">PHP45.00</span>';
+                                            echo '<span class="old-price"><del>PHP55.00</del></span>';
+                                            echo '</div>';
+                                        ?>
                                         <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
+                                            <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
-                                            <a href="wishlist.html" title="Add To Wishlist">
+                                           
+                                            <a href="wishlist.php" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
                                         </div>
-                                        <p class="desc-content">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                        </p>
+                                        <?php
+                                                echo '<p class="desc-content">';
+                                                echo 'Dim sum is a large range of small Chinese dishes that are traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes originated in China and are commonly associated with Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.';
+                                                echo '</p>';
+                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -1559,160 +1098,11 @@
                                     </div>
                                 </div>
                                 <div class="widget-list widget-mb-1">
-                                    <h3 class="widget-title">Menu Categories</h3>
-                                    <!-- Widget Menu Start -->
-                                    <nav>
-                                        <ul class="mobile-menu p-0 m-0">
-                                            <li class="menu-item-has-children"><a href="#">Breads</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Skateboard (02)</a></li>
-                                                    <li><a href="#">Surfboard (4)</a></li>
-                                                    <li><a href="#">Accessories (3)</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Fruits</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Samsome</a></li>
-                                                    <li><a href="#">GL Stylus (4)</a></li>
-                                                    <li><a href="#">Uawei (3)</a></li>
-                                                    <li><a href="#">Avocado (3)</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Vagetables</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Power Bank</a></li>
-                                                    <li><a href="#">Data Cable (4)</a></li>
-                                                    <li><a href="#">Avocado (3)</a></li>
-                                                    <li><a href="#">Brocoly (3)</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Organic Food</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Vagetables</a></li>
-                                                    <li><a href="#">Green Food (4)</a></li>
-                                                    <li><a href="#">Coconut (3)</a></li>
-                                                    <li><a href="#">Cabage (3)</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <!-- Widget Menu End -->
+                                    
+                                    
                                 </div>
-                                <div class="widget-list widget-mb-1">
-                                    <h3 class="widget-title">Categories</h3>
-                                    <div class="sidebar-body">
-                                        <ul class="sidebar-list">
-                                            <li><a href="#">All Product</a></li>
-                                            <li><a href="#">Best Seller (5)</a></li>
-                                            <li><a href="#">Featured (4)</a></li>
-                                            <li><a href="#">New Products (6)</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-list widget-mb-2">
-                                    <h3 class="widget-title">Color</h3>
-                                    <div class="sidebar-body">
-                                        <div class="sidebar-list">
-                                            <button type="button" class="btn red"></button>
-                                            <button type="button" class="btn green"></button>
-                                            <button type="button" class="btn blue"></button>
-                                            <button type="button" class="btn yellow"></button>
-                                            <button type="button" class="btn white"></button>
-                                            <button type="button" class="btn gold"></button>
-                                            <button type="button" class="btn gray"></button>
-                                            <button type="button" class="btn magenta"></button>
-                                            <button type="button" class="btn maroon"></button>
-                                            <button type="button" class="btn navy"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="widget-list widget-mb-3">
-                                    <h3 class="widget-title">Tags</h3>
-                                    <div class="sidebar-body">
-                                        <ul class="tags">
-                                            <li><a href="#">Car</a></li>
-                                            <li><a href="#">Parts</a></li>
-                                            <li><a href="#">Shop</a></li>
-                                            <li><a href="#">Tayer</a></li>
-                                            <li><a href="#">Seat</a></li>
-                                            <li><a href="#">Engine</a></li>
-                                            <li><a href="#">Parts</a></li>
-                                            <li><a href="#">Fuel</a></li>
-                                            <li><a href="#">Modern</a></li>
-                                            <li><a href="#">Brake</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-list widget-mb-4">
-                                    <h3 class="widget-title">Recent Products</h3>
-                                    <div class="sidebar-body">
-                                        <div class="sidebar-product align-items-center">
-                                            <a href="product-details.html" class="image">
-                                                <img src="assets/images/product/small-product/1.jpg" alt="product">
-                                            </a>
-                                            <div class="product-content">
-                                                <div class="product-title">
-                                                    <h4 class="title-2"> <a href="product-details.html">Product dummy name</a></h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price ">$80.00</span>
-                                                    <span class="old-price"><del>$90.00</del></span>
-                                                </div>
-                                                <div class="product-rating">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sidebar-product align-items-center">
-                                            <a href="product-details.html" class="image">
-                                                <img src="assets/images/product/small-product/2.jpg" alt="product">
-                                            </a>
-                                            <div class="product-content">
-                                                <div class="product-title">
-                                                    <h4 class="title-2"> <a href="product-details.html">Product dummy title</a></h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price ">$50.00</span>
-                                                    <span class="old-price"><del>$60.00</del></span>
-                                                </div>
-                                                <div class="product-rating">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-half-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sidebar-product align-items-center">
-                                            <a href="product-details.html" class="image">
-                                                <img src="assets/images/product/small-product/3.jpg" alt="product">
-                                            </a>
-                                            <div class="product-content">
-                                                <div class="product-title">
-                                                    <h4 class="title-2"> <a href="product-details.html">Product title here</a></h4>
-                                                </div>
-                                                <div class="price-box">
-                                                    <span class="regular-price ">$40.00</span>
-                                                    <span class="old-price"><del>$50.00</del></span>
-                                                </div>
-                                                <div class="product-rating">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-half-o"></i>
-                                                    <i class="fa fa-star-half-o"></i>
-                                                    <i class="fa fa-star-o"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
+                                
+                               
                         <!-- Sidebar Widget End -->
                     </div>
                 </div>
@@ -1747,10 +1137,12 @@
                             <div class="single-footer-widget m-0">
                                 <div class="footer-logo">
                                     <a href="index.html">
-                                        <img src="assets/images/logo/footer.png" alt="Logo Image">
+                                        <img src="assets/images/logo/lugo1.png" alt="Logo Image">
                                     </a>
                                 </div>
-                                <p class="desc-content">Obrien is the best parts shop of your daily nutritions. What kind of nutrition do you need you can get here soluta nobis</p>
+                                <?php
+                                    echo '<p class="desc-content">FoodKo is the best Online Food Ordering Website!</p>';
+                                ?>
                                 <div class="social-links">
                                     <ul class="d-flex">
                                         <li>
@@ -1784,48 +1176,42 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">Information</h2>
-                                <ul class="widget-list">
-                                    <li><a href="about-us.html">Our Company</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
-                                    <li><a href="about-us.html">Our Services</a></li>
-                                    <li><a href="about-us.html">Why We?</a></li>
-                                    <li><a href="about-us.html">Careers</a></li>
-                                </ul>
+                            <?php
+                                echo '<h2 class="widget-title">Information</h2>';
+                                echo '<ul class="widget-list">';
+                                echo '<li><a href="about-us.php">About Me</a></li>';
+                                echo '<li><a href="contact-us.php">Contact Us</a></li>';
+                                echo '</ul>';
+                            ?>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">Quicklink</h2>
-                                <ul class="widget-list">
-                                    <li><a href="about-us.html">About</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
+                            <?php
+                                echo '<h2 class="widget-title">Quicklink</h2>';
+                                echo '<ul class="widget-list">';
+                                echo '<li><a href="about-us.php">About</a></li>';
+                                echo '<li><a href="blog.php">Blog</a></li>';
+                                echo '<li><a href="cart.php">Cart</a></li>';
+                                echo '<li><a href="contact-us.php">Contact</a></li>';
+                                echo '</ul>';
+                            ?>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
-                            <div class="single-footer-widget">
-                                <h2 class="widget-title">Support</h2>
-                                <ul class="widget-list">
-                                    <li><a href="contact-us.html">Online Support</a></li>
-                                    <li><a href="contact-us.html">Shipping Policy</a></li>
-                                    <li><a href="contact-us.html">Return Policy</a></li>
-                                    <li><a href="contact-us.html">Privacy Policy</a></li>
-                                    <li><a href="contact-us.html">Terms of Service</a></li>
-                                </ul>
-                            </div>
+                           
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                             <div class="single-footer-widget">
-                                <h2 class="widget-title">See Information</h2>
-                                <div class="widget-body">
-                                    <address>123, H2, Road #21, Main City, Your address goes here.<br>Phone: 01254 698 785, 36598 254 987<br>Email: https://example.com</address>
-                                </div>
+                            <?php
+                                echo '<h2 class="widget-title">See Information</h2>';
+                                echo '<div class="widget-body">';
+                                echo '<address>Santol, Boac, Marinduque <br>Phone: 01254 698 785, 36598 254 987<br>Email: foodko@gmail.com</address>';
+                                echo '</div>';
+                            ?>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -1856,36 +1242,38 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 text-center">
                                 <div class="product-image">
-                                    <img src="assets/images/product/1.jpg" alt="Product Image">
+                                    <img src="assets/images/product/8.png" alt="Product Image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="modal-product">
                                     <div class="product-content">
-                                        <div class="product-title">
-                                            <h4 class="title">Product dummy name</h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">$80.00</span>
-                                            <span class="old-price"><del>$90.00</del></span>
-                                        </div>
+                                    <?php
+                                        echo '<div class="product-title">';
+                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '</div>';
+                                        echo '<div class="price-box">';
+                                        echo '<span class="regular-price ">PHP145.00</span>';
+                                        echo '<span class="old-price"><del>PHP160.00</del></span>';
+                                        echo '</div>';
+                                    ?>
                                         <div class="product-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
+                                            
                                             <span>1 Review</span>
                                         </div>
-                                        <p class="desc-content">we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame bel...</p>
+                                        <?php
+                                            echo '<p class="desc-content">Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</p>';
+                                        ?>
                                         <form class="d-flex flex-column w-100" action="#">
                                             <div class="form-group">
                                                 <select class="form-control nice-select w-100">
-                                                    <option>S</option>
-                                                    <option>M</option>
-                                                    <option>L</option>
-                                                    <option>XL</option>
-                                                    <option>XXL</option>
+                                                <?php
+                                                    echo '<option>S</option>';
+                                                    echo '<option>M</option>';
+                                                    echo '<option>L</option>';
+                                                    echo '<option>XL</option>';
+                                                    echo '<option>XXL</option>';
+                                                ?>
                                                 </select>
                                             </div>
                                         </form>

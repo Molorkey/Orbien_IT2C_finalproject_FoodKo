@@ -106,7 +106,7 @@
                                                                 echo '<li><a href="shop-list-left.php">Chinese Food</a></li>';
                                                                 echo '<li><a href="shop-list-left.php">Japanses Food</a></li>';
                                                                 echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
-                                                                echo '<li><a href="shop-list-left.php">Indian Food</a></li>';
+                                                                
                                                             ?>
                                                             
                                                             
@@ -313,7 +313,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="shop.php">
+                                                <a href="shop-list-left.php">
                                                     <span class="menu-text">Shop</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
@@ -323,9 +323,9 @@
                                                         <?php
                                                             echo '<li><span class="mega-menu-text">Shop</span></li>';
                                                             echo '<li><a href="shop.html">Chinese Food</a></li>';
-                                                            echo '<li><a href="shop-right-sidebar.html">Japanese Food</a></li>';
-                                                            echo '<li><a href="shop-list-left.html">Filipino Food</a></li>';
-                                                            echo '<li><a href="shop-list-right.html">Indian Food</a></li>';
+                                                            echo '<li><a href="shop-right-sidebar.php">Japanese Food</a></li>';
+                                                            echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
+                                                            
                                                         ?>
                                                     
                                                         </ul>
@@ -451,7 +451,7 @@
                                                     </div>
                                                     <div class="single-cart-item">
                                                         <div class="cart-img">
-                                                            <a href="cart.html"><img src="assets/images/cart/6.png" alt=""></a>
+                                                            <a href="cart.php"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
                                                         <?php
@@ -1028,11 +1028,8 @@
                             <?php
                                 echo '<h2 class="widget-title">Information</h2>';
                                 echo '<ul class="widget-list">';
-                                echo '<li><a href="about-us.php">Our Company</a></li>';
+                                echo '<li><a href="about-us.php">About Me</a></li>';
                                 echo '<li><a href="contact-us.php">Contact Us</a></li>';
-                                echo '<li><a href="about-us.php">Our Services</a></li>';
-                                echo '<li><a href="about-us.php">Why We?</a></li>';
-                                echo '<li><a href="about-us.php">Careers</a></li>';
                                 echo '</ul>';
                             ?>
                             </div>
@@ -1044,7 +1041,6 @@
                                 echo '<ul class="widget-list">';
                                 echo '<li><a href="about-us.php">About</a></li>';
                                 echo '<li><a href="blog.php">Blog</a></li>';
-                                echo '<li><a href="shop.php">Shop</a></li>';
                                 echo '<li><a href="cart.php">Cart</a></li>';
                                 echo '<li><a href="contact-us.php">Contact</a></li>';
                                 echo '</ul>';
@@ -1052,18 +1048,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
-                            <div class="single-footer-widget">
-                            <?php
-                                echo '<h2 class="widget-title">Support</h2>';
-                                echo '<ul class="widget-list">';
-                                echo '<li><a href="contact-us.php">Online Support</a></li>';
-                            ?>
-                                    <li><a href="contact-us.php"></a></li>
-                                    <li><a href="contact-us.php"></a></li>
-                                    <li><a href="contact-us.php"></a></li>
-                                    <li><a href="contact-us.php"></a></li>
-                                </ul>
-                            </div>
+                           
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                             <div class="single-footer-widget">
