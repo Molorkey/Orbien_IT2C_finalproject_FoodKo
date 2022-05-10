@@ -50,13 +50,15 @@
                 <div class="container container-default-2 custom-area">
                     <div class="row">
                         <div class="col-12 col-custom header-top-wrapper text-center">
-                            <div class="short-desc text-white">
-                                <p>Get 35% off for new product </p>
-                            </div>
-                            <div class="header-top-button">
-                                <a href="shop-list-left.php">Shop Now</a>
-                            </div>
-                            <span class="top-close-button">X</span>
+                        <?php
+                            echo '<div class="short-desc text-white">';
+                            echo '<p>Get 35% off for new product </p>';
+                            echo '</div>';
+                            echo '<div class="header-top-button">';
+                            echo '<a href="shop-list-left.php">Shop Now</a>';
+                            echo '</div>';
+                            echo '<span class="top-close-button">X</span>';
+                        ?>
                         </div>
                     </div>
                 </div>
@@ -80,25 +82,32 @@
                                         <ul class="nav">
                                             <li>
                                                 <a class="active" href="index.php">
-                                                    <span class="menu-text"> Home</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                 ?>
                                                    
                                                 </a>
                                                 
                                             </li>
                                             <li>
                                                 <a href="shop-list-left.php">
-                                                    <span class="menu-text">Shop</span>
+                                                <?php
+                                                    echo '<span class="menu-text">Shop</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <div class="mega-menu dropdown-hover">
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Shop</span></li>
+                                                            <?php
+                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
                                                  
-                                                            <li><a href="shop-list-left.php">Chinese Food</a></li>
-                                                            <li><a href="shop-list-left.php">Japanses Food</a></li>
-                                                            <li><a href="shop-list-left.php">Filipino Food</a></li>
-                                                            <li><a href="shop-list-left.php">Indian Food</a></li>
+                                                            
+                                                                echo '<li><a href="shop-list-left.php">Chinese Food</a></li>';
+                                                                echo '<li><a href="shop-list-left.php">Japanses Food</a></li>';
+                                                                echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
+                                                                echo '<li><a href="shop-list-left.php">Indian Food</a></li>';
+                                                            ?>
                                                             
                                                             
                                                         </ul>
@@ -106,41 +115,53 @@
                                                     
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Others</span></li>                                                           
-                                                            <li><a href="cart.php">Cart Page</a></li>                                                            
-                                                            <li><a href="checkout.php">Checkout Page</a></li>
-                                                            <li><a href="wishlist.php">Wishlist Page</a></li>
+                                                        <?php
+                                                                echo '<li><span class="mega-menu-text">Others</span></li>';
+                                                                echo '<li><a href="cart.php">Cart Page</a></li>';
+                                                                echo '<li><a href="checkout.php">Checkout Page</a></li>';
+                                                                echo '<li><a href="wishlist.php">Wishlist Page</a></li>';
+                                                        ?>
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <a href="blog-details-sidebar.php">
-                                                    <span class="menu-text"> Blog</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> Blog</span>';
+                                                ?>
                                                     
                                                 </a>
                                                
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <span class="menu-text"> Pages</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> Pages</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="frequently-questions.php">FAQ</a></li>
-                                                    <li><a href="my-account.php">My Account</a></li>
-                                                    <li><a href="login.php">Login</a></li>
-                                                    <li><a href="register.php">Register</a></li>
+                                                <?php
+                                                    echo '<li><a href="frequently-questions.php">FAQ</a></li>';
+                                                    echo '<li><a href="my-account.php">My Account</a></li>';
+                                                    echo '<li><a href="login.php">Login</a></li>';
+                                                    echo '<li><a href="register.php">Register</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="about-us.php">
-                                                    <span class="menu-text"> About</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> About</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="contact-us.php">
-                                                    <span class="menu-text">Contact</span>
+                                                <?php
+                                                    echo '<span class="menu-text">Contact</span>';
+                                                ?>
                                                 </a>
                                             </li>
                                         </ul>
@@ -150,20 +171,24 @@
                                     <div class="header-right-area main-nav">
                                         <ul class="nav">
                                             <li class="login-register-wrap d-none d-xl-flex">
-                                                <span><a href="login.php">Login</a></span>
-                                                <span><a href="register.php">Register</a></span>
+                                            <?php
+                                                echo '<span><a href="login.php">Login</a></span>';
+                                                echo '<span><a href="register.php">Register</a></span>';
+                                            ?>
                                             </li>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
                                                 <ul class="dropdown-sidemenu dropdown-hover-2 dropdown-language">
-                                                    <li><a href="#">USD - US Dollar</a></li>
-                                                    <li><a href="#">EUR - Euro</a></li>
-                                                    <li><a href="#">GBP - British Pound</a></li>
-                                                    <li><a href="#">INR - Indian Rupee</a></li>
-                                                    <li><a href="#">BDT - Bangladesh Taka</a></li>
-                                                    <li><a href="#">JPY - Japan Yen</a></li>
-                                                    <li><a href="#">CAD - Canada Dollar</a></li>
-                                                    <li><a href="#">AUD - Australian Dollar</a></li>
+                                                <?php
+                                                    echo '<li><a href="#">USD - US Dollar</a></li>';
+                                                    echo '<li><a href="#">EUR - Euro</a></li>';
+                                                    echo '<li><a href="#">GBP - British Pound</a></li>';
+                                                    echo '<li><a href="#">INR - Indian Rupee</a></li>';
+                                                    echo '<li><a href="#">BDT - Bangladesh Taka</a></li>';
+                                                    echo '<li><a href="#">JPY - Japan Yen</a></li>';
+                                                    echo '<li><a href="#">CAD - Canada Dollar</a></li>';
+                                                    echo '<li><a href="#">AUD - Australian Dollar</a></li>';
+                                                ?>
                                                 </ul>
                                             </li>
                                             <li class="minicart-wrap">
@@ -280,49 +305,40 @@
                                                 <?php
                                                     echo '<span class="menu-text"> Home</span>';
                                                 ?>
-                                                    <i class="fa fa-angle-down"></i>
+                                                   
                                                 </a>
                                                 <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a class="active" href="index.php">Home Page - 1</a></li>
-                                                    <li><a href="index-2.php">Home Page - 2</a></li>
-                                                    <li><a href="index-3.php">Home Page - 3</a></li>
-                                                    <li><a href="index-4.php">Home Page - 4</a></li>
+                                                    
+                                                   
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="shop.html">
+                                                <a href="shop.php">
                                                     <span class="menu-text">Shop</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <div class="mega-menu dropdown-hover">
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Shop</span></li>
-                                                            <li><a href="shop.html">Shop Left Sidebar</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                            <li><a href="shop-list-left.html">Shop List Left Sidebar</a></li>
-                                                            <li><a href="shop-list-right.html">Shop List Right Sidebar</a></li>
-                                                            <li><a href="shop-fullwidth.html">Shop Full Width</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
+                                                            echo '<li><a href="shop.html">Chinese Food</a></li>';
+                                                            echo '<li><a href="shop-right-sidebar.html">Japanese Food</a></li>';
+                                                            echo '<li><a href="shop-list-left.html">Filipino Food</a></li>';
+                                                            echo '<li><a href="shop-list-right.html">Indian Food</a></li>';
+                                                        ?>
+                                                    
                                                         </ul>
                                                     </div>
+                                                    
                                                     <div class="menu-colum">
                                                         <ul>
-                                                            <li><span class="mega-menu-text">Product</span></li>
-                                                            <li><a href="product-details.html">Single Product</a></li>
-                                                            <li><a href="variable-product-details.html">Variable Product</a></li>
-                                                            <li><a href="external-product-details.html">External Product</a></li>
-                                                            <li><a href="gallery-product-details.html">Gallery Product</a></li>
-                                                            <li><a href="countdown-product-details.html">Countdown Product</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="menu-colum">
-                                                        <ul>
-                                                            <li><span class="mega-menu-text">Others</span></li>
-                                                            <li><a href="error-404.html">Error 404</a></li>
-                                                            <li><a href="compare.html">Compare Page</a></li>
-                                                            <li><a href="cart.html">Cart Page</a></li>
-                                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                                            <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                        <?php
+                                                            echo '<li><span class="mega-menu-text">Others</span></li>';
+                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                        ?>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -330,18 +346,9 @@
                                             <li>
                                                 <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
-                                                    <i class="fa fa-angle-down"></i>
+                                                   
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    <li><a href="blog.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-fullwidth.html">Blog List Fullwidth</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-fullwidth.html">Blog Grid Fullwidth</a></li>
-                                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                                    <li><a href="blog-details-fullwidth.html">Blog Details Fullwidth</a></li>
-                                                </ul>
+                                                
                                             </li>
                                             <li>
                                                 <a href="#">
@@ -511,12 +518,7 @@
                             <nav>
                                 <ul class="mobile-menu">
                                     <li class="menu-item-has-children"><a href="#">Home</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home Page 1</a></li>
-                                            <li><a href="index-2.html">Home Page 2</a></li>
-                                            <li><a href="index-3.html">Home Page 3</a></li>
-                                            <li><a href="index-4.html">Home Page 4</a></li>
-                                        </ul>
+                                        
                                     </li>
                                     <li class="menu-item-has-children"><a href="#">Shop</a>
                                         <ul class="megamenu dropdown">
