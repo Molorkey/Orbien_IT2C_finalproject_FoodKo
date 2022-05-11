@@ -189,7 +189,7 @@
                                                         </div>
                                                         <div class="cart-text">
                                                         <?php
-                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<h5 class="title"><a href="cart.php">Sushi</a></h5>';
                                                             echo '<div class="cart-text-btn">';
                                                             echo '<div class="cart-qty">';
                                                             echo '<span>1×</span>';
@@ -682,7 +682,7 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                     <?php
-                                    echo '<img src="assets/images/product/4.png" alt="Product Image">';
+                                    echo '<img src="assets/images/product/chi.png" alt="Product Image">';
                                     ?>
                                         </a>
                                     </div>
@@ -722,11 +722,11 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title">Sushi</h4>';
+                                            echo '<h4 class="title">Chicharon</h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP145.00</span>';
-                                            echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                            echo '<span class="regular-price ">PHP35.00</span>';
+                                            echo '<span class="old-price"><del> PHP45.00</del></span>';
                                             echo '</div>';
                                         ?>
                                         <div class="add-action-listview d-flex">
@@ -743,7 +743,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.';
+                                            echo 'In many Spanish-speaking parts of the world, chicharon refers to a snack made with deep-fried pork rinds. In the Philippines, it refers to that too but it can also refer to other similarly deep-fried dishes usually made with either pork or chicken.';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -910,7 +910,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/7.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/sisig.png" alt="" class="product-image-1 w-100">';
                                         echo '</a>';
                                     ?>
                                     </div>
@@ -954,11 +954,11 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Chinese Noodles</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Pork Sisig</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP120.00</span>';
-                                            echo '<span class="old-price"><del> PHP135.00</del></span>';
+                                            echo '<span class="regular-price ">PHP95.00</span>';
+                                            echo '<span class="old-price"><del> PHP105.00</del></span>';
                                             echo '</div>';
                                         ?>
                                         <div class="add-action-listview d-flex">
@@ -977,7 +977,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Noodles are an essential ingredient and staple in Chinese cuisine. Chinese noodles vary widely according to the region of production, ingredients, shape or width, and manner of preparation. They are an important part of most regional cuisines within China, and other countries with sizable overseas Chinese populations.';
+                                            echo 'Sisig is originally from Pampanga province which is the (unoffiial) culinary capital of the Philippines, but it’s become ubiquitous throughout the Philippines. It was invented by Aling Lucing’s restaurant in Angeles City around the mid-1970s when a surplus of discarded pig’s heads from a former US air base gave her the idea for the dish.';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -995,7 +995,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/8.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/lum.png" alt="" class="product-image-1 w-100">';
                                         echo '';
                                         echo '</a>';
                                     ?>
@@ -1040,7 +1040,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Dimsum</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Lumpia</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP45.00</span>';
@@ -1061,7 +1061,7 @@
                                         </div>
                                         <?php
                                                 echo '<p class="desc-content">';
-                                                echo 'Dim sum is a large range of small Chinese dishes that are traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes originated in China and are commonly associated with Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.';
+                                                echo 'Lumpia is popular throughout the Philippines and comes in many forms. Lumpiang Shanghai is one of the most common. It’s typically filled with sauteed ground pork, onions, carrots, raisins, and other vegetables. In spite of its name, it did not originate in Shanghai or anywhere else in China.';
                                                 echo '</p>';
                                         ?>
                                     </div>
@@ -1133,7 +1133,7 @@
                                 <p class="desc-content">Call our support 24/7 at 01234-567-890</p>
                             </div>
                             <div class="support-button d-flex align-items-center">
-                                <a class="obrien-button primary-btn" href="contact-us.html">Contact now</a>
+                                <a class="obrien-button primary-btn" href="contact-us.php">Contact now</a>
                             </div>
                         </div>
                     </div>
@@ -1204,7 +1204,7 @@
                                 echo '<h2 class="widget-title">Quicklink</h2>';
                                 echo '<ul class="widget-list">';
                                 echo '<li><a href="about-us.php">About</a></li>';
-                                echo '<li><a href="blog.php">Blog</a></li>';
+                                echo '<li><a href="blog-details-sidebar.php">Blog</a></li>';
                                 echo '<li><a href="cart.php">Cart</a></li>';
                                 echo '<li><a href="contact-us.php">Contact</a></li>';
                                 echo '</ul>';
@@ -1255,7 +1255,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 text-center">
                                 <div class="product-image">
-                                    <img src="assets/images/product/8.png" alt="Product Image">
+                                    <img src="assets/images/product/chi.png" alt="Product Image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -1263,7 +1263,7 @@
                                     <div class="product-content">
                                     <?php
                                         echo '<div class="product-title">';
-                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '<h4 class="title">Chicharon</h4>';
                                         echo '</div>';
                                         echo '<div class="price-box">';
                                         echo '<span class="regular-price ">PHP145.00</span>';
@@ -1275,7 +1275,7 @@
                                             <span>1 Review</span>
                                         </div>
                                         <?php
-                                            echo '<p class="desc-content">Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</p>';
+                                            echo '<p class="desc-content">In many Spanish-speaking parts of the world, chicharon refers to a snack made with deep-fried pork rinds. In the Philippines, it refers to that too but it can also refer to other similarly deep-fried dishes usually made with either pork or chicken.</p>';
                                         ?>
                                         <form class="d-flex flex-column w-100" action="#">
                                             <div class="form-group">
