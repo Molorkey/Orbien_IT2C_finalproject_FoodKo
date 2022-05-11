@@ -42,8 +42,28 @@
 
 <body>
 
-    <div class="contact-wrapper">
+<div class="home-wrapper home-1">
+        <!-- Header Area Start Here -->
         <header class="main-header-area">
+            <!-- Header Top Area Start Here -->
+            <div class="header-top-area">
+                <div class="container container-default-2 custom-area">
+                    <div class="row">
+                        <div class="col-12 col-custom header-top-wrapper text-center">
+                        <?php
+                            echo '<div class="short-desc text-white">';
+                            echo '<p>Get 35% off for new product </p>';
+                            echo '</div>';
+                            echo '<div class="header-top-button">';
+                            echo '<a href="shop-list-left.php">Shop Now</a>';
+                            echo '</div>';
+                            echo '<span class="top-close-button">X</span>';
+                        ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Top Area End Here -->
             <!-- Main Header Area Start -->
             <div class="main-header">
                 <div class="container container-default custom-area">
@@ -52,8 +72,8 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo d-flex align-items-center">
-                                        <a href="index.html">
-                                            <img class="img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                                        <a href="index.php">
+                                            <img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">
                                         </a>
                                     </div>
                                 </div>
@@ -61,21 +81,25 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a href="index.php">
-                                                    <span class="menu-text"> Home</span>
-                                                    
+                                                <a class="active" href="index.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                 ?>
+                                                   
                                                 </a>
                                                 
                                             </li>
                                             <li>
                                                 <a href="shop-list-left.php">
-                                                    <span class="menu-text">Shop</span>
+                                                <?php
+                                                    echo '<span class="menu-text">Shop</span>';
+                                                ?>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <div class="mega-menu dropdown-hover">
                                                     <div class="menu-colum">
                                                         <ul>
-                                                        <?php
+                                                            <?php
                                                             echo '<li><span class="mega-menu-text">Shop</span></li>';
                                                  
                                                             
@@ -84,11 +108,11 @@
                                                                 echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
                                                                 
                                                             ?>
+                                                            
+                                                            
                                                         </ul>
                                                     </div>
-                                                    <div class="menu-colum">
-                                                       
-                                                    </div>
+                                                    
                                                     <div class="menu-colum">
                                                         <ul>
                                                         <?php
@@ -108,10 +132,10 @@
                                                 ?>
                                                     
                                                 </a>
-                                                
+                                               
                                             </li>
                                             <li>
-                                                <a class="active" href="#">
+                                                <a href="#">
                                                 <?php
                                                     echo '<span class="menu-text"> Pages</span>';
                                                 ?>
@@ -193,7 +217,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
-                                                    <div class="cart-img">
+                                                        <div class="cart-img">
                                                             <a href="cart.php"><img src="assets/images/cart/5.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
@@ -212,7 +236,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="single-cart-item">
-                                                    <div class="cart-img">
+                                                        <div class="cart-img">
                                                             <a href="cart.php"><img src="assets/images/cart/6.png" alt=""></a>
                                                         </div>
                                                         <div class="cart-text">
@@ -266,7 +290,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo">
-                                    <a href="index.php">
+                                        <a href="index.php">
                                         <?php
                                             echo '<img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">';
                                         ?>
@@ -277,15 +301,19 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a href="index.php">
+                                                <a class="active" href="index.php">
                                                 <?php
                                                     echo '<span class="menu-text"> Home</span>';
                                                 ?>
+                                                   
                                                 </a>
-                                                
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    
+                                                   
+                                                </ul>
                                             </li>
                                             <li>
-                                            <a href="shop-list-left.php">
+                                                <a href="shop-list-left.php">
                                                     <span class="menu-text">Shop</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
@@ -299,11 +327,10 @@
                                                             echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
                                                             
                                                         ?>
+                                                    
                                                         </ul>
                                                     </div>
-                                                    <div class="menu-colum">
-                                                     
-                                                    </div>
+                                                    
                                                     <div class="menu-colum">
                                                         <ul>
                                                         <?php
@@ -319,11 +346,12 @@
                                             <li>
                                                 <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
-                                                    
+                                                   
                                                 </a>
-                                               
+                                                
+                                            </li>
                                             <li>
-                                                <a class="active" href="#">
+                                                <a href="#">
                                                     <span class="menu-text"> Pages</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
@@ -362,7 +390,6 @@
                                             echo '<span><a href="register.php">Register</a></span>';
                                             echo '</li>';
                                         ?>
-                                            </li>
                                             <li class="sidemenu-wrap d-none d-lg-flex">
                                                 <a href="#">USD <i class="fa fa-caret-down"></i> </a>
                                                 <ul class="dropdown-sidemenu dropdown-hover-2 dropdown-language">
@@ -453,6 +480,7 @@
                                                         echo '<a class="obrien-button white-btn" href="checkout.php">Checkout</a>';
                                                     ?>
                                                     </div>
+                                                </div>
                                             </li>
                                             <li class="mobile-menu-btn d-lg-none">
                                                 <a class="off-canvas-btn" href="#mobileMenu">
