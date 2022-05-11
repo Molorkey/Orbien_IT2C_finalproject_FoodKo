@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE contact-details [
+	<!ELEMENT foodko (homepage)>
+	<!ELEMENT bestsellers (food)>
+	<!ELEMENT shop (food)>
+
+	<!ELEMENT advertisement (#PCDATA)>
+	<!ELEMENT voucher (#PCDATA)>
+	<!ELEMENT bestsellers (#PCDATA)>
+	<!ELEMENT food (#PCDATA)>
+	<!ELEMENT offer (#PCDATA)>
+	<!ELEMENT contact (#PCDATA)>
+	<!ELEMENT footer (#PCDATA)>
+	<!ELEMENT information (#PCDATA)>
+	<!ELEMENT inside (#PCDATA)>
+	<!ELEMENT quicklink (#PCDATA)>
+	<!ELEMENT seeinformation (#PCDATA)>
+	<!ELEMENT others (#PCDATA)>
+
+
+	<!ATTLIST advertisement slide CDATA #REQUIRED>
+	<!ATTLIST shop dropbar CDATA #REQUIRED>
+	<!ATTLIST town zip CDATA #REQUIRED>
+
+]>
+
+<foodko>
+	<homepage> 
+		<advertisement slide="2">Todays Menu</advertisement>
+		<voucher>Promo</voucher>
+		<bestsellers>
+			<food>Sushi</food>
+			<food>Adobo</food>
+			<food>Halo-Halo</food>
+			<food>Chinese Noodles</food>
+		</bestsellers>
+		<offer>Discount Membership</offer>
+		<contact>Need Help</contact>
+		<footer>
+			<information>
+				<inside>About me</inside>
+				<inside>Contact us</inside>
+			</information>
+		<quicklink>
+			<inside>About</inside>
+			<inside>Blog</inside>
+			<inside>Cart</inside>
+			<inside>Contact</inside>
+		</quicklink>
+		<seeinformation>
+		<inside>Santol, Boac, Marinduque
+				Phone: 01254 698 785, 36598 254 987
+				Email: foodko@gmail.com
+		</inside>
+
+		</seeinformation>
+		</footer>
+
+	<shop dropbar="2"> 
+		<food>Chinese Food</food>
+		<food>Japanese Food</food>
+		<food>Filipino Food</food>
+		<Others>
+			<others>Cart Page</others>
+			<others>Checkout Page</others>
+			<others>Wishlist Page</others>
+		</Others>
+
+
+	</shop>
+	</homepage>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foodko>
+	
