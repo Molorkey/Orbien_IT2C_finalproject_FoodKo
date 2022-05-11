@@ -99,9 +99,9 @@
                                                         <?php
                                                             echo '<li><span class="mega-menu-text">Others</span></li>';
                                                             echo '';
-                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
-                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
-                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                            echo '<li><a href="cart.php">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.php">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.php">Wishlist Page</a></li>';
                                                         ?>
                                                         </ul>
                                                     </div>
@@ -278,8 +278,10 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
                                     <div class="header-logo">
-                                        <a href="index.html">
-                                            <img class="img-full" src="assets/images/logo/logo.png" alt="Header Logo">
+                                        <a href="index.php">
+                                        <?php
+                                            echo '<img class="img-full" src="assets/images/logo/lugo.png" alt="Header Logo">';
+                                        ?>
                                         </a>
                                     </div>
                                 </div>
@@ -287,14 +289,19 @@
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul class="nav">
                                             <li>
-                                                <a href="index.php">
-                                                    <span class="menu-text"> Home</span>
-                                                    
+                                                <a class="active" href="index.php">
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                ?>
+                                                   
                                                 </a>
-                                                
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    
+                                                   
+                                                </ul>
                                             </li>
                                             <li>
-                                                <a class="active" href="shop-list-left.php">
+                                                <a href="shop-list-left.php">
                                                     <span class="menu-text">Shop</span>
                                                     <i class="fa fa-angle-down"></i>
                                                 </a>
@@ -302,12 +309,16 @@
                                                     <div class="menu-colum">
                                                         <ul>
                                                         <?php
-                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
-                                                            
-                                                            echo '<li><a href="shop-right-sidebar.php">Chinese Food</a></li>';
-                                                            echo '<li><a href="shop-right-sidebar.php">Japanese Food</a></li>';
-                                                            echo '<li><a href="shop-list-left.php">Filipino Food</a></li>';
+                                                             
+                                                             echo '<li><span class="mega-menu-text">Shop</span></li>';
+                                                             
+                                                             echo '<li><a href="shop-list-left1.php">Chinese Food</a></li>';
+                                                             echo '<li><a href="shop-list-left2.php">Japanese Food</a></li>';
+                                                             echo '<li><a href="shop-list-left3.php">Filipino Food</a></li>';
+                                                         
+
                                                         ?>
+                                                    
                                                         </ul>
                                                     </div>
                                                     
@@ -315,9 +326,10 @@
                                                         <ul>
                                                         <?php
                                                             echo '<li><span class="mega-menu-text">Others</span></li>';
-                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
-                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
-                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                            echo '';
+                                                            echo '<li><a href="cart.php">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.php">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.php">Wishlist Page</a></li>';
                                                         ?>
                                                         </ul>
                                                     </div>
@@ -326,11 +338,9 @@
                                             <li>
                                                 <a href="blog-details-sidebar.php">
                                                     <span class="menu-text"> Blog</span>
-                                                    
+                                                   
                                                 </a>
-                                                <ul class="dropdown-submenu dropdown-hover">
-                                                    
-                                                </ul>
+                                                
                                             </li>
                                             <li>
                                                 <a href="#">
@@ -347,14 +357,14 @@
                                                 ?>
                                             </li>
                                             <li>
-                                                <a href="about-us.html">
+                                                <a href="about-us.php">
                                                 <?php
                                                     echo '<span class="menu-text"> About</span>';
                                                 ?>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="contact-us.html">
+                                                <a href="contact-us.php">
                                                 <?php
                                                     echo '<span class="menu-text">Contact</span>';
                                                 ?>
@@ -401,7 +411,7 @@
                                                         </div>
                                                         <div class="cart-text">
                                                         <?php
-                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<h5 class="title"><a href="cart.php">Sushi</a></h5>';
                                                             echo '<div class="cart-text-btn">';
                                                             echo '<div class="cart-qty">';
                                                             echo '<span>1×</span>';
@@ -672,7 +682,7 @@
                                 <div class="single-product position-relative">
                                     <div class="product-image">
                                     <?php
-                                    echo '<img src="assets/images/product/4.png" alt="Product Image">';
+                                    echo '<img src="assets/images/product/peking.png" alt="Product Image">';
                                     ?>
                                         </a>
                                     </div>
@@ -680,11 +690,11 @@
                                         
                                     <?php
                                         echo '<div class="product-title">';
-                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '<h4 class="title">Beijing Roasted Duck</h4>';
                                         echo '</div>';
                                         echo '<div class="price-box">';
-                                        echo '<span class="regular-price ">PHP145.00</span>';
-                                        echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                        echo '<span class="regular-price ">PHP240.00</span>';
+                                        echo '<span class="old-price"><del> PHP260.00</del></span>';
                                         echo '</div>';
                                     ?>
                                     </div>
@@ -712,11 +722,11 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title">Sushi</h4>';
+                                            echo '<h4 class="title">Beijing Roasted Duck</h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP145.00</span>';
-                                            echo '<span class="old-price"><del> PHP160.00</del></span>';
+                                            echo '<span class="regular-price ">PHP240.00</span>';
+                                            echo '<span class="old-price"><del> PHP260.00</del></span>';
                                             echo '</div>';
                                         ?>
                                         <div class="add-action-listview d-flex">
@@ -733,7 +743,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.';
+                                            echo 'Peking duck is a dish from Beijing that has been prepared since the Imperial era. The meat is characterized by its thin, crispy skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook.';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -744,7 +754,7 @@
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
                                         <?php
-                                            echo '<img src="assets/images/product/5.png" alt="" class="product-image-1 w-100">';
+                                            echo '<img src="assets/images/product/hot.png" alt="" class="product-image-1 w-100">';
                                         ?>
                                             
                                         </a>
@@ -758,7 +768,7 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title-2"> <a href="product-details.html">Sushi</a></h4>
+                                            <h4 class="title-2"> <a href="product-details.html">Dimsum</a></h4>
                                         </div>
                                         <div class="price-box">
                                             <span class="regular-price ">$70.00</span>
@@ -789,20 +799,18 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Adobo</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Hot Pot</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP50.00</span>';
-                                            echo '<span class="old-price"><del>PHP60.00</del></span>';
+                                            echo '<span class="regular-price ">PHP150.00</span>';
+                                            echo '<span class="old-price"><del>PHP160.00</del></span>';
                                             echo '</div>';
                                         ?>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
@@ -811,8 +819,11 @@
                                             </a>
                                         </div>
                                         <p class="desc-content">
-                                        <i> Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.</i>                                        </p>
-                                    </div>
+                                        <?php
+                                            echo '<i>  Hot pot, or hotpot (火锅 huǒguō), is one of the most popular dishes in China, especially in Sichuan Province or Chongqing. People cook in and eat from a simmering pot of soup stock (broth) on a gas/induction hob in the middle of the dining table with foodstuffs and condiments around the pot. </i>                                        </p>';
+                                            echo '';
+                                        ?>                                   
+                                        </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -820,7 +831,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/6.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/mao.png" alt="" class="product-image-1 w-100">';
                                         echo '</a>';
                                     ?>
                                     </div>
@@ -834,7 +845,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Ma Po Tofu</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP75.00</span>';
@@ -866,7 +877,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Ma Po Tofu</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP75.00</span>';
@@ -889,7 +900,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.';
+                                            echo 'Ma Po tofu (麻婆豆腐 Mápó dòufǔ ‘Pockmarked Granny beancurd’) is one of the most famous dishes in Chuan Cuisine (Sichuan food) with a history of more than 100 years. It consists of beancurd along with some minced meat (pork or beef) in a spicy sauce. The sauce is made from fermented black beans and chili paste (douban/douchi).';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -1123,7 +1134,7 @@
                                 <p class="desc-content">Call our support 24/7 at 01234-567-890</p>
                             </div>
                             <div class="support-button d-flex align-items-center">
-                                <a class="obrien-button primary-btn" href="contact-us.html">Contact now</a>
+                                <a class="obrien-button primary-btn" href="contact-us.php">Contact now</a>
                             </div>
                         </div>
                     </div>
@@ -1194,7 +1205,7 @@
                                 echo '<h2 class="widget-title">Quicklink</h2>';
                                 echo '<ul class="widget-list">';
                                 echo '<li><a href="about-us.php">About</a></li>';
-                                echo '<li><a href="blog.php">Blog</a></li>';
+                                echo '<li><a href="blog-details-sidebar.php">Blog</a></li>';
                                 echo '<li><a href="cart.php">Cart</a></li>';
                                 echo '<li><a href="contact-us.php">Contact</a></li>';
                                 echo '</ul>';
@@ -1245,7 +1256,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 text-center">
                                 <div class="product-image">
-                                    <img src="assets/images/product/8.png" alt="Product Image">
+                                    <img src="assets/images/product/peking.png" alt="Product Image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -1253,11 +1264,11 @@
                                     <div class="product-content">
                                     <?php
                                         echo '<div class="product-title">';
-                                        echo '<h4 class="title">Sushi</h4>';
+                                        echo '<h4 class="title">Beijing Roasted Duck</h4>';
                                         echo '</div>';
                                         echo '<div class="price-box">';
-                                        echo '<span class="regular-price ">PHP145.00</span>';
-                                        echo '<span class="old-price"><del>PHP160.00</del></span>';
+                                        echo '<span class="regular-price ">PHP240.00</span>';
+                                        echo '<span class="old-price"><del>PHP260.00</del></span>';
                                         echo '</div>';
                                     ?>
                                         <div class="product-rating">
@@ -1265,7 +1276,7 @@
                                             <span>1 Review</span>
                                         </div>
                                         <?php
-                                            echo '<p class="desc-content">Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</p>';
+                                            echo '<p class="desc-content">Peking duck is a dish from Beijing that has been prepared since the Imperial era. The meat is characterized by its thin, crispy skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook.</p>';
                                         ?>
                                         <form class="d-flex flex-column w-100" action="#">
                                             <div class="form-group">
@@ -1289,7 +1300,7 @@
                                                 </div>
                                             </div>
                                             <div class="add-to_cart">
-                                                <a class="btn obrien-button primary-btn" href="cart.html">Add to cart</a>
+                                                <a class="btn obrien-button primary-btn" href="cart.php">Add to cart</a>
                                             </div>
                                         </div>
                                     </div>
