@@ -642,7 +642,7 @@
                         <div class="breadcrumb-content position-relative section-content">
                             <h3 class="title-3">contact Us</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li>Contact Us</li>
                             </ul>
                         </div>
