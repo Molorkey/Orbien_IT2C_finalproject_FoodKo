@@ -99,9 +99,9 @@
                                                         <?php
                                                             echo '<li><span class="mega-menu-text">Others</span></li>';
                                                             echo '';
-                                                            echo '<li><a href="cart.html">Cart Page</a></li>';
-                                                            echo '<li><a href="checkout.html">Checkout Page</a></li>';
-                                                            echo '<li><a href="wishlist.html">Wishlist Page</a></li>';
+                                                            echo '<li><a href="cart.php">Cart Page</a></li>';
+                                                            echo '<li><a href="checkout.php">Checkout Page</a></li>';
+                                                            echo '<li><a href="wishlist.php">Wishlist Page</a></li>';
                                                         ?>
                                                         </ul>
                                                     </div>
@@ -1296,7 +1296,7 @@
                                                 </div>
                                             </div>
                                             <div class="add-to_cart">
-                                                <a class="btn obrien-button primary-btn" href="cart.html">Add to cart</a>
+                                                <a class="btn obrien-button primary-btn" href="cart.php">Add to cart</a>
                                             </div>
                                         </div>
                                     </div>

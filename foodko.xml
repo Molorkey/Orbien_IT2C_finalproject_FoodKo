@@ -26,6 +26,7 @@
 	<!ATTLIST advertisement slide CDATA #REQUIRED>
 	<!ATTLIST shop dropbar CDATA #REQUIRED>
 	<!ATTLIST food id CDATA #REQUIRED>
+	<!ATTLIST others number CDATA #REQUIRED>
 
 ]>
 
@@ -179,12 +180,14 @@
 
 
 		</food>
-		<Others>
+		
+	</shop>
+
+	<Others number="3">
 			<others>Cart Page</others>
 			<others>Checkout Page</others>
 			<others>Wishlist Page</others>
 		</Others>
-	</shop>
 	
 
 
