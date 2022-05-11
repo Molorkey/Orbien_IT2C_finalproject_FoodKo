@@ -796,11 +796,15 @@
                     <div class="col-lg-12 col-custom">
                         <div class="support-wrapper d-flex">
                             <div class="support-content">
-                                <h1 class="title">Need Help ?</h1>
-                                <p class="desc-content">Call our support 24/7 at 01234-567-890</p>
+                            <?php
+                                echo '<h1 class="title">Need Help ?</h1>';
+                                echo '<p class="desc-content">Call our support 24/7 at 01234-567-890</p>';
+                            ?>
                             </div>
                             <div class="support-button d-flex align-items-center">
-                                <a class="obrien-button primary-btn" href="contact-us.html">Contact now</a>
+                            <?php
+                                echo '<a class="obrien-button primary-btn" href="contact-us.php">Contact now</a>';
+                            ?>
                             </div>
                         </div>
                     </div>
@@ -924,13 +928,15 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="modal-product">
                                     <div class="product-content">
-                                        <div class="product-title">
-                                            <h4 class="title">Halo-Halo</h4>
-                                        </div>
-                                        <div class="price-box">
-                                            <span class="regular-price ">PHP75.00</span>
-                                            <span class="old-price"><del>PHP85.00</del></span>
-                                        </div>
+                                    <?php
+                                        echo '<div class="product-title">';
+                                        echo '<h4 class="title">Halo-Halo</h4>';
+                                        echo '</div>';
+                                        echo '<div class="price-box">';
+                                        echo '<span class="regular-price ">PHP75.00</span>';
+                                        echo '<span class="old-price"><del>PHP85.00</del></span>';
+                                        echo '</div>';
+                                    ?>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>

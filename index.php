@@ -419,7 +419,7 @@
                                                         </div>
                                                         <div class="cart-text">
                                                         <?php
-                                                            echo '<h5 class="title"><a href="cart.html">Sushi</a></h5>';
+                                                            echo '<h5 class="title"><a href="cart.php">Sushi</a></h5>';
                                                             echo '<div class="cart-text-btn">';
                                                             echo '<div class="cart-qty">';
                                                             echo '<span>1×</span>';

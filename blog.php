@@ -64,7 +64,9 @@
                                         <ul class="nav">
                                             <li>
                                                 <a href="index.php">
-                                                    <span class="menu-text"> Home</span>
+                                                <?php
+                                                    echo '<span class="menu-text"> Home</span>';
+                                                ?>
                                                    
                                                 </a>
                                                 
@@ -87,21 +89,14 @@
                                                         </ul>
                                                     </div>
                                                     <div class="menu-colum">
-                                                        <ul>
-                                                            <li><span class="mega-menu-text">Product</span></li>
-                                                            <li><a href="product-details.html">Single Product</a></li>
-                                                            <li><a href="variable-product-details.html">Variable Product</a></li>
-                                                            <li><a href="external-product-details.html">External Product</a></li>
-                                                            <li><a href="gallery-product-details.html">Gallery Product</a></li>
-                                                            <li><a href="countdown-product-details.html">Countdown Product</a></li>
-                                                        </ul>
+                                                        
                                                     </div>
                                                     <div class="menu-colum">
                                                         <ul>
                                                             
-                                                            <li><a href="cart.html">Cart Page</a></li>
-                                                            <li><a href="checkout.html">Checkout Page</a></li>
-                                                            <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                            <li><a href="cart.php">Cart Page</a></li>
+                                                            <li><a href="checkout.php">Checkout Page</a></li>
+                                                            <li><a href="wishlist.php">Wishlist Page</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
