@@ -80,11 +80,14 @@
                                                     <div class="menu-colum">
                                                         <ul>
                                                         <?php
-                                                            echo '<li><span class="mega-menu-text">Shop</span></li>';
-                                                            echo '<li><a href="shop.html">Chinese Food</a></li>';
-                                                            echo '<li><a href="shop-right-sidebar.html">Japanese Food</a></li>';
-                                                            echo '<li><a class="active" href="shop-list-left.html">Filipino Food</a></li>';
-                                                            echo '';
+                                                             
+                                                             echo '<li><span class="mega-menu-text">Shop</span></li>';
+                                                             
+                                                             echo '<li><a href="shop-list-left1.php">Chinese Food</a></li>';
+                                                             echo '<li><a href="shop-list-left2.php">Japanese Food</a></li>';
+                                                             echo '<li><a href="shop-list-left3.php">Filipino Food</a></li>';
+                                                         
+
                                                         ?>
                                                         </ul>
                                                     </div>
