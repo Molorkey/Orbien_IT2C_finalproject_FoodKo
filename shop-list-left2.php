@@ -754,7 +754,7 @@
                                     <div class="product-image">
                                         <a class="d-block" href="product-details.html">
                                         <?php
-                                            echo '<img src="assets/images/product/5.png" alt="" class="product-image-1 w-100">';
+                                            echo '<img src="assets/images/product/udon.png" alt="" class="product-image-1 w-100">';
                                         ?>
                                             
                                         </a>
@@ -799,20 +799,18 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Adobo</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Udon</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP50.00</span>';
-                                            echo '<span class="old-price"><del>PHP60.00</del></span>';
+                                            echo '<span class="regular-price ">PHP110.00</span>';
+                                            echo '<span class="old-price"><del>PHP120.00</del></span>';
                                             echo '</div>';
                                         ?>
                                         <div class="add-action-listview d-flex">
-                                            <a href="cart.html" title="Add To cart">
+                                            <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
@@ -821,7 +819,10 @@
                                             </a>
                                         </div>
                                         <p class="desc-content">
-                                        <i> Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.</i>                                        </p>
+                                        <?php
+                                            echo '<i> One of the three main noodle varieties eaten in Japan; udon noodles are thick, chewy, and traditionally made from wheat flour and brine water. Udon can be served in a number of different ways (mixed into stir fries, added to hot pots, served cold with a tsuyu or tentsuyu soup base on the side for dipping), but are most commonly used in noodle soups, where they are served in a savoury soup broth with different garnishes. Some of the most common udon noodle soup dishes include kitsune udon (‘fox udon’, topped with aburaage fried tofu), tempura udon (topped with tempura battered seafood and vegetables), and chikara udon (‘power udon’, topped with grilled mochi rice cakes).</i>                                        </p>';
+                                            echo '';
+                                        ?>                                    
                                     </div>
                                 </div>
                             </div>
@@ -830,7 +831,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/6.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/tempura.png" alt="" class="product-image-1 w-100">';
                                         echo '</a>';
                                     ?>
                                     </div>
@@ -876,7 +877,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Halo-Halo</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Tempura</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP75.00</span>';
@@ -887,9 +888,7 @@
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
@@ -899,7 +898,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.';
+                                            echo 'If you enjoy crispy fried foods, then you will love tempura. Tempura are pieces or slices of meat, fish, and/or vegetables that have been covered in a special tempura batter and deep fried until they become crunchy and pale gold in colour. ';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -910,7 +909,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/7.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/yaki.png" alt="" class="product-image-1 w-100">';
                                         echo '</a>';
                                     ?>
                                     </div>
@@ -954,7 +953,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Chinese Noodles</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Yakitori</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP120.00</span>';
@@ -965,9 +964,7 @@
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
@@ -977,7 +974,7 @@
                                         </div>
                                         <?php
                                             echo '<p class="desc-content">';
-                                            echo 'Noodles are an essential ingredient and staple in Chinese cuisine. Chinese noodles vary widely according to the region of production, ingredients, shape or width, and manner of preparation. They are an important part of most regional cuisines within China, and other countries with sizable overseas Chinese populations.';
+                                            echo 'With a name literally meaning ‘barbecued chicken’, yakitori are small skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce, or tare, of mirin rice wine, soy sauce, sake alcohol, and sugar. There are many different types of yakitori, but the most common varieties are momo (chicken thigh), negima (chicken and spring onion), and tsukune (chicken meatballs).';
                                             echo '</p>';
                                         ?>
                                     </div>
@@ -995,7 +992,7 @@
                                     <div class="product-image">
                                     <?php
                                         echo '<a class="d-block" href="product-details.html">';
-                                        echo '<img src="assets/images/product/8.png" alt="" class="product-image-1 w-100">';
+                                        echo '<img src="assets/images/product/sashi.png" alt="" class="product-image-1 w-100">';
                                         echo '';
                                         echo '</a>';
                                     ?>
@@ -1040,7 +1037,7 @@
                                         </div>
                                         <?php
                                             echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Dimsum</a></h4>';
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Sashimi</a></h4>';
                                             echo '</div>';
                                             echo '<div class="price-box">';
                                             echo '<span class="regular-price ">PHP45.00</span>';
@@ -1061,7 +1058,7 @@
                                         </div>
                                         <?php
                                                 echo '<p class="desc-content">';
-                                                echo 'Dim sum is a large range of small Chinese dishes that are traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes originated in China and are commonly associated with Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.';
+                                                echo 'Possibly one of the most controversial dishes in all of Japanese cuisine, sashimi is raw fish or meat that has been expertly cut into thin slices and typically comes served with daikon radish, pickled ginger, wasabi and soy sauce. Sashimi differs from sushi in that all sushi is made with vinegared rice and does not always contain raw fish, while sashimi is almost exclusively raw fish and is never served with rice. The fish used to make sashimi must be as fresh as possible, both in order to minimise the risk of contamination, and because fresher fish makes for tastier sashimi.';
                                                 echo '</p>';
                                         ?>
                                     </div>
@@ -1133,7 +1130,7 @@
                                 <p class="desc-content">Call our support 24/7 at 01234-567-890</p>
                             </div>
                             <div class="support-button d-flex align-items-center">
-                                <a class="obrien-button primary-btn" href="contact-us.html">Contact now</a>
+                                <a class="obrien-button primary-btn" href="contact-us.php">Contact now</a>
                             </div>
                         </div>
                     </div>
@@ -1204,7 +1201,7 @@
                                 echo '<h2 class="widget-title">Quicklink</h2>';
                                 echo '<ul class="widget-list">';
                                 echo '<li><a href="about-us.php">About</a></li>';
-                                echo '<li><a href="blog.php">Blog</a></li>';
+                                echo '<li><a href="blog-details-sidebar.php">Blog</a></li>';
                                 echo '<li><a href="cart.php">Cart</a></li>';
                                 echo '<li><a href="contact-us.php">Contact</a></li>';
                                 echo '</ul>';
@@ -1255,7 +1252,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 text-center">
                                 <div class="product-image">
-                                    <img src="assets/images/product/8.png" alt="Product Image">
+                                    <img src="assets/images/product/4.png" alt="Product Image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
