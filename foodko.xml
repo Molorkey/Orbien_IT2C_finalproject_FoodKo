@@ -140,7 +140,45 @@
 
 
 		</food>
-		<food>Filipino Food</food>
+		<food id="Filipino Food">
+			<food>
+				<name>Chicharon</name>
+				<price>PHP35.00</price>
+				<content>In many Spanish-speaking parts of the world, chicharon refers to a snack made with deep-fried pork rinds. In the Philippines, it refers to that too but it can also refer to other similarly deep-fried dishes usually made with either pork or chicken.
+				</content>
+
+			</food>
+			<food>
+				<name>ADOBO</name>
+				<price>PHP50.00</price>
+				<content>Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.
+				</content>
+
+			</food>
+			<food>
+				<name>HALO-HALO</name>
+				<price>PHP75.00</price>
+				<content>Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.
+				</content>
+
+			</food>
+			<food>
+				<name>PORK SISIG</name>
+				<price>PHP95.00</price>
+				<content>Sisig is originally from Pampanga province which is the (unoffiial) culinary capital of the Philippines, but it’s become ubiquitous throughout the Philippines. It was invented by Aling Lucing’s restaurant in Angeles City around the mid-1970s when a surplus of discarded pig’s heads from a former US air base gave her the idea for the dish.
+				</content>
+
+			</food>
+			<food>
+				<name>LUMPIA</name>
+				<price>PHP45.00</price>
+				<content>Lumpia is popular throughout the Philippines and comes in many forms. Lumpiang Shanghai is one of the most common. It’s typically filled with sauteed ground pork, onions, carrots, raisins, and other vegetables. In spite of its name, it did not originate in Shanghai or anywhere else in China.
+				</content>
+
+			</food>
+
+
+		</food>
 		<Others>
 			<others>Cart Page</others>
 			<others>Checkout Page</others>
