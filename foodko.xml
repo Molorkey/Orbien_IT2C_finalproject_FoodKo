@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE contact-details [
-	<!ELEMENT foodko (homepage)>
+<!DOCTYPE foodko [
+	<!ELEMENT foodko (homepage, shop, others)>
+	<!ELEMENT homepage (advertisement, voucher, offer, contact)>
 	<!ELEMENT bestsellers (food)>
+	<!ELEMENT footer (information)>
+	<!ELEMENT quicklink (inside)>
 	<!ELEMENT shop (food)>
+	<!ELEMENT seeinformation (information)>
+	<!ELEMENT food (name, price, content)>
+	<!ELEMENT cart (image, product, price, quantity, total, remove)>
 
-	<!ELEMENT advertisement (#PCDATA)>
+
+																
+	<!ELEMENT advertisement (#PCDATA)> 
 	<!ELEMENT voucher (#PCDATA)>
 	<!ELEMENT bestsellers (#PCDATA)>
 	<!ELEMENT food (#PCDATA)>
@@ -20,6 +28,11 @@
 	<!ELEMENT price (#PCDATA)>
 	<!ELEMENT content (#PCDATA)>
 	<!ELEMENT shop (#PCDATA)>
+	<!ELEMENT quantity (#PCDATA)>
+	<!ELEMENT product (#PCDATA)>
+	<!ELEMENT total (#PCDATA)>
+	<!ELEMENT remove (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
 	
 
 
@@ -54,10 +67,10 @@
 			<inside>Contact</inside>
 		</quicklink>
 		<seeinformation>
-		<inside>Santol, Boac, Marinduque
+			<information>Santol, Boac, Marinduque
 				Phone: 01254 698 785, 36598 254 987
 				Email: foodko@gmail.com
-		</inside>
+			</information>
 
 		</seeinformation>
 		</footer>
@@ -184,10 +197,39 @@
 	</shop>
 
 	<Others number="3">
-			<others>Cart Page</others>
-			<others>Checkout Page</others>
-			<others>Wishlist Page</others>
-		</Others>
+		<cartpage>
+			<cart>
+				<image>Sushi Image</image>
+				<product>Sushi</product>
+				<price>PHP145.00</price>
+				<quantity>1</quantity>
+				<total>PHP145.00</total>
+				<remove>Button</remove>
+			</cart>
+			<cart>
+				<image>Adobo Image</image>
+				<product>Adobo</product>
+				<price>PHP50.00</price>
+				<quantity>1</quantity>
+				<total>PHP50.00</total>
+				<remove>Button</remove>
+			</cart>
+			<cart>
+				<image>Halo-Halo Image</image>
+				<product>Halo-Halo</product>
+				<price>PHP75.00</price>
+				<quantity>1</quantity>
+				<total>PHP75.00</total>
+				<remove>Button</remove>
+			</cart>
+		</cartpage>
+
+
+			
+				
+			
+
+	</Others>
 	
 
 
