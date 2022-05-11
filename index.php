@@ -746,8 +746,9 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                        
                                         <?php
+                                            echo '<h4 class="title-2"> <a href="product-details.html">Sushi</a></h4>';
+                                        
                                            
                                         ?>
                                         </div>
