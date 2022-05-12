@@ -720,15 +720,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title">Sushi</h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP145.00</span>';
-                                            echo '<span class="old-price"><del> PHP160.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[5]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[5]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -797,15 +798,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Udon</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP110.00</span>';
-                                            echo '<span class="old-price"><del>PHP120.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[6]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[6]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -875,15 +877,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Tempura</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP75.00</span>';
-                                            echo '<span class="old-price"><del>PHP85.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[7]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[7]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -951,15 +954,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Yakitori</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP120.00</span>';
-                                            echo '<span class="old-price"><del> PHP135.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[8]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[8]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -1035,15 +1039,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Sashimi</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP45.00</span>';
-                                            echo '<span class="old-price"><del>PHP55.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[9]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[9]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE products [
+	
+    <!ELEMENT food (name, price, description)>
+
+    								
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ATTLIST food tag CDATA #REQUIRED>
+	
+	
+	
+
+
+	
+
+]>
+
+
+
+<products>
+
+    <food tag="Chinese Food">
+        <name>Beijing Roasted Duck</name>
+        <price>PHP240.00</price> 
+        <description>Peking duck is a dish from Beijing that has been prepared since the Imperial era. The meat is characterized by its thin, crispy skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook.</description>
+    </food>
+
+    <food>
+        <name> HOT POT </name>
+        <price> PHP150.00</price>
+        <description> Hot pot, or hotpot (火锅 huǒguō), is one of the most popular dishes in China, especially in Sichuan Province or Chongqing. People cook in and eat from a simmering pot of soup stock (broth) on a gas/induction hob in the middle of the dining table with foodstuffs and condiments around the pot.</description>
+    </food>
+
+    <food>
+        <name> Ma Po Tofu</name>
+        <price>PHP250.00</price>
+        <description> Ma Po tofu (麻婆豆腐 Mápó dòufǔ ‘Pockmarked Granny beancurd’) is one of the most famous dishes in Chuan Cuisine (Sichuan food) with a history of more than 100 years. It consists of beancurd along with some minced meat (pork or beef) in a spicy sauce. The sauce is made from fermented black beans and chili paste (douban/douchi).</description>
+    </food>
+
+     <food>
+        <name> CHINESE NOODLES</name>
+        <price> PHP120.00</price>
+        <description>  Noodles are an essential ingredient and staple in Chinese cuisine. Chinese noodles vary widely according to the region of production, ingredients, shape or width, and manner of preparation. They are an important part of most regional cuisines within China, and other countries with sizable overseas Chinese populations.</description>
+    </food>
+
+    <food>
+        <name> Dimsum </name>
+        <price> PHP45.00 </price>
+        <description>Dim sum is a large range of small Chinese dishes that are traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes originated in China and are commonly associated with Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.</description>
+    </food>
+
+    <food tag="Japanese Food">
+        <name> Sushi </name>
+        <price>PHP145.00</price>
+        <description> Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</description>
+    </food>
+    <food>
+        <name> Udon </name>
+        <price> PHP110.00</price>
+        <description> One of the three main noodle varieties eaten in Japan; udon noodles are thick, chewy, and traditionally made from wheat flour and brine water. Udon can be served in a number of different ways (mixed into stir fries, added to hot pots, served cold with a tsuyu or tentsuyu soup base on the side for dipping), but are most commonly used in noodle soups, where they are served in a savoury soup broth with different garnishes. Some of the most common udon noodle soup dishes include kitsune udon (‘fox udon’, topped with aburaage fried tofu), tempura udon (topped with tempura battered seafood and vegetables), and chikara udon (‘power udon’, topped with grilled mochi rice cakes).</description>
+    </food>
+    <food>
+        <name> Tempura </name>
+        <price> PHP75.00</price>
+        <description> If you enjoy crispy fried foods, then you will love tempura. Tempura are pieces or slices of meat, fish, and/or vegetables that have been covered in a special tempura batter and deep fried until they become crunchy and pale gold in colour.</description>
+    </food>
+    <food>
+        <name> Yakitori </name>
+        <price> PHP120.00</price>
+        <description>With a name literally meaning ‘barbecued chicken’, yakitori are small skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce, or tare, of mirin rice wine, soy sauce, sake alcohol, and sugar. There are many different types of yakitori, but the most common varieties are momo (chicken thigh), negima (chicken and spring onion), and tsukune (chicken meatballs).</description>
+    </food>
+    <food>
+        <name> Sashimi </name>
+        <price> PHP45.00</price>
+        <description>Possibly one of the most controversial dishes in all of Japanese cuisine, sashimi is raw fish or meat that has been expertly cut into thin slices and typically comes served with daikon radish, pickled ginger, wasabi and soy sauce. Sashimi differs from sushi in that all sushi is made with vinegared rice and does not always contain raw fish, while sashimi is almost exclusively raw fish and is never served with rice. The fish used to make sashimi must be as fresh as possible, both in order to minimise the risk of contamination, and because fresher fish makes for tastier sashimi.</description>
+    </food>
+    <food tag="Filipino Food">
+        <name> Chicharon </name>
+        <price> PHP35.00</price>
+        <description>In many Spanish-speaking parts of the world, chicharon refers to a snack made with deep-fried pork rinds. In the Philippines, it refers to that too but it can also refer to other similarly deep-fried dishes usually made with either pork or chicken.</description>
+    </food>
+     <food>
+        <name> Adobo </name>
+        <price> PHP50.00</price>
+        <description>Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.</description>
+    </food>
+    <food>
+        <name> Halo-Halo </name>
+        <price> PHP75.00</price>
+        <description>Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.</description>
+    </food>
+
+
+
+</products>
