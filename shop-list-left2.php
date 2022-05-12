@@ -721,12 +721,12 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                            <h4 class="title"><?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                          echo $item->food[5]->name;
                                          ?></h4>
                                             <div class="price-box">
                                             <span class="regular-price ">
-                                            <?php $item=simplexml_load_file('simple.xml');
+                                            <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[5]->price;?></span>
                                             <span class="old-price"><del> PHP260.00</del></span>
                                             </div>
@@ -744,7 +744,7 @@
                                             </div>
                                         
                                         <p class="desc-content">
-                                        <?php $item=simplexml_load_file('simple.xml');
+                                        <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                     echo $item->food[5]->description;?></span>                                                </p>
                                 
                             </div>
@@ -799,12 +799,12 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                            <h4 class="title"><?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                          echo $item->food[6]->name;
                                          ?></h4>
                                             <div class="price-box">
                                             <span class="regular-price ">
-                                            <?php $item=simplexml_load_file('simple.xml');
+                                            <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[6]->price;?></span>
                                             <span class="old-price"><del> PHP260.00</del></span>
                                             </div>
@@ -822,7 +822,7 @@
                                             </div>
                                         
                                         <p class="desc-content">
-                                        <?php $item=simplexml_load_file('simple.xml');
+                                        <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                     echo $item->food[6]->description;?></span>                                                </p>
                                 
                             </div>
@@ -878,12 +878,12 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                            <h4 class="title"><?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                          echo $item->food[7]->name;
                                          ?></h4>
                                             <div class="price-box">
                                             <span class="regular-price ">
-                                            <?php $item=simplexml_load_file('simple.xml');
+                                            <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[7]->price;?></span>
                                             <span class="old-price"><del> PHP260.00</del></span>
                                             </div>
@@ -901,7 +901,7 @@
                                             </div>
                                         
                                         <p class="desc-content">
-                                        <?php $item=simplexml_load_file('simple.xml');
+                                        <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                     echo $item->food[7]->description;?></span>                                                </p>
                                 
                             </div>
@@ -955,12 +955,12 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                            <h4 class="title"><?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                          echo $item->food[8]->name;
                                          ?></h4>
                                             <div class="price-box">
                                             <span class="regular-price ">
-                                            <?php $item=simplexml_load_file('simple.xml');
+                                            <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[8]->price;?></span>
                                             <span class="old-price"><del> PHP260.00</del></span>
                                             </div>
@@ -978,7 +978,7 @@
                                             </div>
                                         
                                         <p class="desc-content">
-                                        <?php $item=simplexml_load_file('simple.xml');
+                                        <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                     echo $item->food[8]->description;?></span>                                                </p>
                                 
                             </div>
@@ -1040,12 +1040,12 @@
                                             <i class="fa fa-star-o"></i>
                                         </div>
                                         <div class="product-title">
-                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                            <h4 class="title"><?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                          echo $item->food[9]->name;
                                          ?></h4>
                                             <div class="price-box">
                                             <span class="regular-price ">
-                                            <?php $item=simplexml_load_file('simple.xml');
+                                            <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[9]->price;?></span>
                                             <span class="old-price"><del> PHP260.00</del></span>
                                             </div>
@@ -1063,7 +1063,7 @@
                                         </div>
                                         
                                                 <p class="desc-content">
-                                                <?php $item=simplexml_load_file('simple.xml');
+                                                <?php $item=simplexml_load_file('Orbien_IT2yoursection_FoodKo.xml');
                                             echo $item->food[9]->description;?></span>                                                </p>
                                         
                                     </div>
