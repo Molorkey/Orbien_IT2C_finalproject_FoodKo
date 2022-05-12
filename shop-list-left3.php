@@ -741,13 +741,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'In many Spanish-speaking parts of the world, chicharon refers to a snack made with deep-fried pork rinds. In the Philippines, it refers to that too but it can also refer to other similarly deep-fried dishes usually made with either pork or chicken.';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[10]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -812,19 +812,20 @@
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
+                                            </div>
+                                        
                                         <p class="desc-content">
-                                        <i> Philippine adobo (from Spanish adobar: " marinade," "sauce" or "seasoning" / English: / əˈdoʊboʊ / Tagalog pronunciation: ) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.</i>                                        </p>
-                                    </div>
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[11]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -890,22 +891,20 @@
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
                                             </a>
-                                            <a href="compare.html" title="Compare">
-                                                <i class="ion-ios-loop-strong"></i>
-                                            </a>
+                                            
                                             <a href="wishlist.html" title="Add To Wishlist">
                                                 <i class="ion-ios-heart-outline"></i>
                                             </a>
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[12]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -955,15 +954,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Pork Sisig</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP95.00</span>';
-                                            echo '<span class="old-price"><del> PHP105.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[13]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[13]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.html" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -977,13 +977,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'Sisig is originally from Pampanga province which is the (unoffiial) culinary capital of the Philippines, but it’s become ubiquitous throughout the Philippines. It was invented by Aling Lucing’s restaurant in Angeles City around the mid-1970s when a surplus of discarded pig’s heads from a former US air base gave her the idea for the dish.';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[13]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             
@@ -1041,15 +1041,16 @@
                                             <i class="fa fa-star-o"></i>
                                             <i class="fa fa-star-o"></i>
                                         </div>
-                                        <?php
-                                            echo '<div class="product-title">';
-                                            echo '<h4 class="title-2"> <a href="product-details.html">Lumpia</a></h4>';
-                                            echo '</div>';
-                                            echo '<div class="price-box">';
-                                            echo '<span class="regular-price ">PHP45.00</span>';
-                                            echo '<span class="old-price"><del>PHP55.00</del></span>';
-                                            echo '</div>';
-                                        ?>
+                                        <div class="product-title">
+                                            <h4 class="title"><?php $item=simplexml_load_file('simple.xml');
+                                         echo $item->food[14]->name;
+                                         ?></h4>
+                                            <div class="price-box">
+                                            <span class="regular-price ">
+                                            <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[14]->price;?></span>
+                                            <span class="old-price"><del> PHP260.00</del></span>
+                                            </div>
                                         <div class="add-action-listview d-flex">
                                             <a href="cart.php" title="Add To cart">
                                                 <i class="ion-bag"></i>
@@ -1061,13 +1062,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                                echo '<p class="desc-content">';
-                                                echo 'Lumpia is popular throughout the Philippines and comes in many forms. Lumpiang Shanghai is one of the most common. It’s typically filled with sauteed ground pork, onions, carrots, raisins, and other vegetables. In spite of its name, it did not originate in Shanghai or anywhere else in China.';
-                                                echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[14]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                         </div>

@@ -93,6 +93,16 @@
         <price> PHP75.00</price>
         <description>Halo-halo, which translates to “mix-mix,” is said to have originated from the Japanese shaved ice, kakigori, and was brought to our shores by Japanese migrants who settled near the ice manufacturing plant in Quinta, Manila.</description>
     </food>
+    <food>
+        <name> Pork Sisig </name>
+        <price> PHP95.00</price>
+        <description>Sisig is originally from Pampanga province which is the (unoffiial) culinary capital of the Philippines, but it’s become ubiquitous throughout the Philippines. It was invented by Aling Lucing’s restaurant in Angeles City around the mid-1970s when a surplus of discarded pig’s heads from a former US air base gave her the idea for the dish.</description>
+    </food>
+    <food>
+        <name> Lumpia </name>
+        <price> PHP45.00</price>
+        <description>Lumpia is popular throughout the Philippines and comes in many forms. Lumpiang Shanghai is one of the most common. It’s typically filled with sauteed ground pork, onions, carrots, raisins, and other vegetables. In spite of its name, it did not originate in Shanghai or anywhere else in China.</description>
+    </food>
 
 
 

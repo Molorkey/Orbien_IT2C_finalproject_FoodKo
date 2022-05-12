@@ -741,13 +741,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[5]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -819,13 +819,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
+                                            </div>
+                                        
                                         <p class="desc-content">
-                                        <?php
-                                            echo '<i> One of the three main noodle varieties eaten in Japan; udon noodles are thick, chewy, and traditionally made from wheat flour and brine water. Udon can be served in a number of different ways (mixed into stir fries, added to hot pots, served cold with a tsuyu or tentsuyu soup base on the side for dipping), but are most commonly used in noodle soups, where they are served in a savoury soup broth with different garnishes. Some of the most common udon noodle soup dishes include kitsune udon (‘fox udon’, topped with aburaage fried tofu), tempura udon (topped with tempura battered seafood and vegetables), and chikara udon (‘power udon’, topped with grilled mochi rice cakes).</i>                                        </p>';
-                                            echo '';
-                                        ?>                                    
-                                    </div>
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[6]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -898,13 +898,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'If you enjoy crispy fried foods, then you will love tempura. Tempura are pieces or slices of meat, fish, and/or vegetables that have been covered in a special tempura batter and deep fried until they become crunchy and pale gold in colour. ';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[7]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -975,13 +975,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'With a name literally meaning ‘barbecued chicken’, yakitori are small skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce, or tare, of mirin rice wine, soy sauce, sake alcohol, and sugar. There are many different types of yakitori, but the most common varieties are momo (chicken thigh), negima (chicken and spring onion), and tsukune (chicken meatballs).';
-                                            echo '</p>';
-                                        ?>
-                                    </div>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[8]->description;?></span>                                                </p>
+                                
+                            </div>
                                 </div>
                             </div>
                             
@@ -1061,11 +1061,11 @@
                                                 <i class="ion-eye"></i>
                                             </a>
                                         </div>
-                                        <?php
-                                                echo '<p class="desc-content">';
-                                                echo 'Possibly one of the most controversial dishes in all of Japanese cuisine, sashimi is raw fish or meat that has been expertly cut into thin slices and typically comes served with daikon radish, pickled ginger, wasabi and soy sauce. Sashimi differs from sushi in that all sushi is made with vinegared rice and does not always contain raw fish, while sashimi is almost exclusively raw fish and is never served with rice. The fish used to make sashimi must be as fresh as possible, both in order to minimise the risk of contamination, and because fresher fish makes for tastier sashimi.';
-                                                echo '</p>';
-                                        ?>
+                                        
+                                                <p class="desc-content">
+                                                <?php $item=simplexml_load_file('simple.xml');
+                                            echo $item->food[9]->description;?></span>                                                </p>
+                                        
                                     </div>
                                 </div>
                             </div>

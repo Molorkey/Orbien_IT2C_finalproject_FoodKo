@@ -827,13 +827,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
+                                            </div>
+                                        
                                         <p class="desc-content">
-                                        <?php
-                                            echo '<i>  Hot pot, or hotpot (火锅 huǒguō), is one of the most popular dishes in China, especially in Sichuan Province or Chongqing. People cook in and eat from a simmering pot of soup stock (broth) on a gas/induction hob in the middle of the dining table with foodstuffs and condiments around the pot. </i>                                        </p>';
-                                            echo '';
-                                        ?>                                   
-                                        </div>
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[1]->description;?></span>                                                </p>
+                                
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 col-custom product-area">
@@ -908,12 +908,12 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'Ma Po tofu (麻婆豆腐 Mápó dòufǔ ‘Pockmarked Granny beancurd’) is one of the most famous dishes in Chuan Cuisine (Sichuan food) with a history of more than 100 years. It consists of beancurd along with some minced meat (pork or beef) in a spicy sauce. The sauce is made from fermented black beans and chili paste (douban/douchi).';
-                                            echo '</p>';
-                                        ?>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[2]->description;?></span>                                                </p>
+                                
                                     </div>
                                 </div>
                             </div>
@@ -987,12 +987,13 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[3]->description;?></span>                                                </p>
+                                
                                         </div>
-                                        <?php
-                                            echo '<p class="desc-content">';
-                                            echo 'Noodles are an essential ingredient and staple in Chinese cuisine. Chinese noodles vary widely according to the region of production, ingredients, shape or width, and manner of preparation. They are an important part of most regional cuisines within China, and other countries with sizable overseas Chinese populations.';
-                                            echo '</p>';
-                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -1072,12 +1073,12 @@
                                             <a href="#exampleModalCenter" data-bs-toggle="modal" title="Quick View">
                                                 <i class="ion-eye"></i>
                                             </a>
-                                        </div>
-                                        <?php
-                                                echo '<p class="desc-content">';
-                                                echo 'Dim sum is a large range of small Chinese dishes that are traditionally enjoyed in restaurants for brunch. Most modern dim sum dishes originated in China and are commonly associated with Cantonese cuisine, although dim sum dishes also exist in other Chinese cuisines.';
-                                                echo '</p>';
-                                        ?>
+                                            </div>
+                                        
+                                        <p class="desc-content">
+                                        <?php $item=simplexml_load_file('simple.xml');
+                                    echo $item->food[4]->description;?></span>                                                </p>
+                                
                                     </div>
                                 </div>
                             </div>
