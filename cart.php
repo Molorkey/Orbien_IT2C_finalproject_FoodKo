@@ -678,12 +678,17 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                         <?php
+                                         
+                                    <?php
                                         echo '<td class="pro-thumbnail"><a href="#"><img class="img-fluid" src="assets/images/product/small-size/sushi.png" alt="Product" /></a></td>';
+                                        echo '';
+                                    ?>                                        
+                                            <td class="pro-title"><a href="#"><?php $item=simplexml_load_file('simple.xml'); 
+                                                    echo $item->food[5]->name;
+                                            ?></a></td>
+                                            <td class="pro-price"><span><?php $item=simplexml_load_file('simple.xml'); 
+                                                    echo $item->food[5]->price;?></span></td>
                                         
-                                            echo '<td class="pro-title"><a href="#">Sushi</a></td>';
-                                            echo '<td class="pro-price"><span>PHP145.00</span></td>';
-                                        ?>
                                         <td class="pro-quantity">
                                             <div class="quantity">
                                                 <div class="cart-plus-minus">
@@ -701,11 +706,17 @@
                                         <td class="pro-remove"><a href="#"><i class="ion-trash-b"></i></a></td>
                                     </tr>
                                     <tr>
+                                    
                                     <?php
-                                        echo '<td class="pro-thumbnail"><a href="#"><img class="img-fluid" src="assets/images/product/small-size/adobo.png" alt="Product" /></a></td>';
-                                        echo '<td class="pro-title"><a href="#">Adobo</a></td>';
-                                        echo '<td class="pro-price"><span>PHP50.00</span></td>';
-                                    ?>
+                                            echo '<td class="pro-thumbnail"><a href="#"><img class="img-fluid" src="assets/images/product/small-size/adobo.png" alt="Product" /></a></td>';
+                                            echo '';
+                                    ?>                                        
+                                        <td class="pro-title"><a href="#"><?php $item=simplexml_load_file('simple.xml'); 
+                                                echo $item->food[11]->name;
+                                        ?></a></td>
+                                        <td class="pro-price"><span><?php $item=simplexml_load_file('simple.xml'); 
+                                                echo $item->food[11]->price;?></span></td>
+                                    
                                         <td class="pro-quantity">
                                             <div class="quantity">
                                                 <div class="cart-plus-minus">
@@ -721,11 +732,17 @@
                                         <td class="pro-remove"><a href="#"><i class="ion-trash-b"></i></a></td>
                                     </tr>
                                     <tr>
+                                    
                                     <?php
-                                        echo '<td class="pro-thumbnail"><a href="#"><img class="img-fluid" src="assets/images/product/small-size/halo.png" alt="Product" /></a></td>';
-                                        echo '<td class="pro-title"><a href="#">Halo-Halo</a></td>';
-                                        echo '<td class="pro-price"><span>PHP75.00</span></td>';
-                                    ?>
+                                            echo '<td class="pro-thumbnail"><a href="#"><img class="img-fluid" src="assets/images/product/small-size/halo.png" alt="Product" /></a></td>';
+                                            echo '';
+                                    ?>                                        
+                                        <td class="pro-title"><a href="#"><?php $item=simplexml_load_file('simple.xml'); 
+                                                echo $item->food[12]->name;
+                                        ?></a></td>
+                                        <td class="pro-price"><span><?php $item=simplexml_load_file('simple.xml'); 
+                                                echo $item->food[12]->price;?></span></td>
+                                    
                                         <td class="pro-quantity">
                                             <div class="quantity">
                                                 <div class="cart-plus-minus">
